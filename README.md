@@ -1,6 +1,6 @@
 
 
-# UBNAD - Windows Edition
+# UBNAD
 
 **Unauthorized Background Network Activity Detector**  
 Real-time network monitoring and suspicion scoring for Windows 10/11
