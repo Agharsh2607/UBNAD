@@ -293,5 +293,5 @@ For issues, check:
 
 ---
 
-**UBNAD v2.0 - Windows Edition**  
+**UBNAD**  
 Unauthorized Background Network Activity Detector
