@@ -1,2 +1,6 @@
-streamlit
-pandas
+streamlit>=1.28.0
+pandas>=2.0.0
+psutil>=5.9.0
+plotly>=5.13.0
+pynput>=1.7.6
+pywin32>=305

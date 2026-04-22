@@ -1,6 +1,7 @@
 """
 UBNAD - Windows Edition
 Main event orchestration and analysis loop
+Enhanced with advanced suspicion scoring, reasoning, and alerts
 """
 
 import signal
@@ -15,9 +16,10 @@ from collector.windows_net_collector import WindowsNetCollector
 from core.intent_monitor import get_intent_score, get_idle_time
 from core.process_mapper import get_process_state
 from core.behavior_model import update_profile, get_baseline
-from core.suspicion_engine import calculate_suspicion
+from core.suspicion_engine import calculate_suspicion, determine_risk_level
 from core.alert_manager import generate_alert
 from database.activity_store import init_db, insert_event
+from config import should_alert, is_trusted_process, is_safe_port
 
 # Setup logging
 logging.basicConfig(
@@ -30,11 +32,15 @@ logger = logging.getLogger(__name__)
 event_queue = Queue(maxsize=1000)
 running = True
 collector = None
+total_events_processed = 0
+total_alerts_generated = 0
 
 def signal_handler(signum, frame):
     """Handle graceful shutdown on Ctrl+C."""
     global running
     logger.info("Shutdown signal received, stopping...")
+    logger.info(f"Total events processed: {total_events_processed}")
+    logger.info(f"Total alerts generated: {total_alerts_generated}")
     running = False
     
     if collector:
@@ -42,20 +48,13 @@ def signal_handler(signum, frame):
     
     sys.exit(0)
 
-def determine_risk_level(score):
-    """Determine risk level from suspicion score."""
-    if score > 20:
-        return "CRITICAL"
-    elif score > 10:
-        return "HIGH"
-    elif score > 5:
-        return "MEDIUM"
-    else:
-        return "SAFE"
-
 def process_event(event):
-    """Process a single network event through analysis pipeline."""
+    """Process a single network event through comprehensive analysis pipeline."""
+    global total_events_processed, total_alerts_generated
+    
     try:
+        total_events_processed += 1
+        
         timestamp_str = event["timestamp"]  # Already formatted as string from collector
         pid = event["pid"]
         process_name = event["process"]
@@ -71,20 +70,60 @@ def process_event(event):
         intent = get_intent_score()
         idle = get_idle_time()
         
-        # Traffic estimate (placeholder)
+        # Traffic estimate (placeholder for now)
         traffic = 500
         
         # Update behavior baseline
         update_profile(process_name, traffic, intent)
         baseline = get_baseline(process_name)
         
-        # Calculate suspicion score
-        score = calculate_suspicion(process_name, traffic, intent, baseline)
+        # Convert timestamp string to float for suspicion calculation
+        try:
+            from datetime import datetime
+            ts_float = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S").timestamp()
+        except:
+            ts_float = time.time()
         
-        # Determine risk level
+        # Calculate comprehensive suspicion score (0-100 scale)
+        score, reasons = calculate_suspicion(
+            process_name, 
+            traffic, 
+            intent, 
+            baseline,
+            dest_ip=dest_ip,
+            dest_port=dest_port,
+            timestamp=ts_float
+        )
+        
+        # Determine risk level using enhanced scoring
         risk_level = determine_risk_level(score)
         
-        # Create event dictionary for database
+        # Determine severity for display
+        if score >= 76:
+            severity = "CRITICAL"
+        elif score >= 51:
+            severity = "HIGH"
+        elif score >= 26:
+            severity = "MEDIUM"
+        else:
+            severity = "SAFE"
+        
+        # Generate alert if needed
+        should_generate_alert, alert_msg, alert_severity = generate_alert(
+            process_name,
+            dest_ip,
+            dest_port,
+            score,
+            idle,
+            reasons,
+            intent
+        )
+        
+        if should_generate_alert:
+            logger.warning(f"🚨 ALERT: {alert_msg}")
+            total_alerts_generated += 1
+        
+        # Create event dictionary for database - BACKWARD COMPATIBLE
         db_event = {
             "timestamp": timestamp_str,
             "pid": pid,
@@ -93,23 +132,23 @@ def process_event(event):
             "dest_port": dest_port,
             "intent_score": intent,
             "suspicion_score": score,
-            "risk_level": risk_level
+            "risk_level": risk_level,
+            "severity": severity,
+            "reasons": reasons,
+            "protocol": "TCP"
         }
         
         # Store to database
         insert_event(db_event)
         
-        # Generate alert if suspicious
-        if score > 10:
-            generate_alert(process_name, dest_ip, score, idle)
-        
-        logger.debug(
-            f"Event: {process_name} -> {dest_ip}:{dest_port} "
-            f"(score: {score:.1f}, risk: {risk_level})"
-        )
+        # Log summary for high-risk events
+        if score > 50:
+            logger.info(f"⚠️  {risk_level}: {process_name} ({pid}) -> {dest_ip}:{dest_port} (Score: {score:.1f})")
+            if reasons:
+                logger.info(f"   Reasons: {', '.join(reasons)}")
         
     except Exception as e:
-        logger.error(f"Event processing error: {e}", exc_info=False)
+        logger.error(f"Error processing event: {e}", exc_info=True)
 
 def analyzer_loop():
     """Main analyzer loop - consume events from queue."""

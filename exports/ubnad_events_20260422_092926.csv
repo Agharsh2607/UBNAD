@@ -1,0 +1,1001 @@
+Timestamp,Process,PID,Destination IP,Port,Suspicion Score,Risk Level,Severity,Reasons,Intent Score,Protocol
+2026-04-22 09:29:26,python.exe,22016,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 110; Beaconing pattern: 16 hits to 98.84.87.4:80; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:26,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 107; Beaconing pattern: 14 hits to 98.84.87.4:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:26,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 111; Beaconing pattern: 17 hits to 98.84.87.4:80; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:25,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 106; Beaconing pattern: 13 hits to 98.84.87.4:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:25,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 109; Beaconing pattern: 15 hits to 98.84.87.4:80; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 106; Beaconing pattern: 13 hits to 98.84.87.4:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 103; Beaconing pattern: 10 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,python.exe,25448,20.207.73.82,443,47.0,MEDIUM,MEDIUM,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 107; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 83 in 60 seconds; High connection frequency baseline: 108; Beaconing pattern: 14 hits to 98.84.87.4:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 104; Beaconing pattern: 11 hits to 98.84.87.4:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:24,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 105; Beaconing pattern: 12 hits to 98.84.87.4:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:23,System Idle Process,0,98.84.87.4,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 102; Beaconing pattern: 9 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:23,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 103; Beaconing pattern: 11 hits to 98.84.87.4:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:23,python.exe,22016,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 104; Beaconing pattern: 12 hits to 98.84.87.4:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:23,python.exe,23708,93.184.216.34,8080,72.0,HIGH,HIGH,Frequent connections: 81 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 105; Beaconing pattern: 10 hits to 93.184.216.34:8080; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:22,System Idle Process,0,98.84.87.4,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 100; Repeated destination: 7 hits to 98.84.87.4:80; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:22,LenovoVantageService.exe,4276,18.155.99.56,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:22,System Idle Process,0,98.84.87.4,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 101; Repeated destination: 8 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:29:22,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 102; Beaconing pattern: 10 hits to 98.84.87.4:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:22,ConfigServiceAgent.exe,27856,18.155.99.56,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:21,python.exe,19916,98.84.87.4,80,55.0,HIGH,HIGH,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 99; Repeated destination: 7 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:21,python.exe,22016,98.84.87.4,80,55.0,HIGH,HIGH,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 100; Repeated destination: 8 hits to 98.84.87.4:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:21,System Idle Process,0,98.84.87.4,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 98; Repeated destination: 5 hits to 98.84.87.4:80; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:21,System Idle Process,0,98.84.87.4,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 99; Repeated destination: 6 hits to 98.84.87.4:80; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:21,python.exe,19916,98.84.87.4,80,62.0,HIGH,HIGH,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 101; Beaconing pattern: 9 hits to 98.84.87.4:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:20,System Idle Process,0,98.84.87.4,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 97; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:20,python.exe,19916,98.84.87.4,80,55.0,HIGH,HIGH,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 98; Repeated destination: 6 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:19,python.exe,19916,98.84.87.4,80,55.0,HIGH,HIGH,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 97; Repeated destination: 5 hits to 98.84.87.4:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:19,System Idle Process,0,98.84.87.4,80,66.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 96; Rapid connection rate: 5 in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:18,python.exe,22016,98.84.87.4,80,47.0,MEDIUM,MEDIUM,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 95; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:18,python.exe,25448,98.84.87.4,80,47.0,MEDIUM,MEDIUM,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 96; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:17,python.exe,23708,93.184.216.34,8080,72.0,HIGH,HIGH,Frequent connections: 75 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 94; Beaconing pattern: 10 hits to 93.184.216.34:8080; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:17,System Idle Process,0,98.84.87.4,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 95; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:16,python.exe,22016,98.84.87.4,80,47.0,MEDIUM,MEDIUM,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 93; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:16,msedge.exe,28320,3.229.36.203,443,8.0,SAFE,SAFE,Elevated connection rate: 4 in 60 seconds; High connection frequency baseline: 40; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:29:14,System Idle Process,0,98.84.87.4,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 94; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:13,python.exe,25448,35.190.14.201,443,47.0,MEDIUM,MEDIUM,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 91; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:13,System Idle Process,0,35.190.14.201,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 93; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:13,python.exe,22016,98.84.87.4,80,47.0,MEDIUM,MEDIUM,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 92; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:29:12,msedge.exe,28320,150.171.28.11,443,0.0,SAFE,SAFE,High connection frequency baseline: 39,1.0,TCP
+2026-04-22 09:29:12,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 92; Beaconing pattern: 28 hits to 3.234.199.80:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:29:11,python.exe,22016,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 90; Beaconing pattern: 29 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:10,LenovoVantage-(LenovoSecurityAddin).exe,1084,49.44.153.183,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:10,python.exe,23708,93.184.216.34,8080,72.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 89; Beaconing pattern: 10 hits to 93.184.216.34:8080; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:09,OfficeC2RClient.exe,11812,51.132.193.105,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:09,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 90; Beaconing pattern: 26 hits to 3.234.199.80:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:09,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 91; Beaconing pattern: 27 hits to 3.234.199.80:80; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:08,python.exe,22016,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 87; Beaconing pattern: 27 hits to 3.234.199.80:80; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:08,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 83 in 60 seconds; High connection frequency baseline: 88; Beaconing pattern: 28 hits to 3.234.199.80:80; Connection burst: 19 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:08,OfficeC2RClient.exe,11812,52.123.226.43,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:08,OfficeC2RClient.exe,11812,52.110.16.168,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:08,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 89; Beaconing pattern: 25 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:08,LenovoVantage-(VantageCoreAddin).exe,13860,18.155.99.56,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:07,python.exe,25448,103.102.166.224,443,47.0,MEDIUM,MEDIUM,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 84; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:07,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 85; Beaconing pattern: 26 hits to 3.234.199.80:80; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:07,System Idle Process,0,8.8.4.4,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 75 in 60 seconds; High connection frequency baseline: 87; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:29:07,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 76 in 60 seconds; High connection frequency baseline: 88; Beaconing pattern: 24 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:29:07,python.exe,25448,103.102.166.224,80,47.0,MEDIUM,MEDIUM,Frequent connections: 83 in 60 seconds; High connection frequency baseline: 86; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:29:06,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 84; Beaconing pattern: 22 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:29:06,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 83; Beaconing pattern: 25 hits to 3.234.199.80:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:06,System Idle Process,0,49.44.198.161,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 85; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:06,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 74 in 60 seconds; High connection frequency baseline: 86; Beaconing pattern: 23 hits to 3.234.199.80:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:05,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 74 in 60 seconds; High connection frequency baseline: 83; Beaconing pattern: 21 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:05,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 81; Beaconing pattern: 23 hits to 3.234.199.80:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:05,python.exe,22016,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 82; Beaconing pattern: 24 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 78; Beaconing pattern: 21 hits to 3.234.199.80:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 71 in 60 seconds; High connection frequency baseline: 80; Beaconing pattern: 18 hits to 3.234.199.80:80; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,python.exe,23708,93.184.216.34,8080,72.0,HIGH,HIGH,Frequent connections: 79 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 79; Beaconing pattern: 10 hits to 93.184.216.34:8080; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 81; Beaconing pattern: 19 hits to 3.234.199.80:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 80; Beaconing pattern: 22 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 82; Beaconing pattern: 20 hits to 3.234.199.80:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:04,EABackgroundService.exe,28852,104.120.95.114,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:29:03,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 76; Beaconing pattern: 19 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:03,python.exe,22016,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 77; Beaconing pattern: 20 hits to 3.234.199.80:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:03,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 70 in 60 seconds; High connection frequency baseline: 79; Beaconing pattern: 17 hits to 3.234.199.80:80; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,System Idle Process,0,3.234.199.80,80,81.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 76; Beaconing pattern: 15 hits to 3.234.199.80:80; Rapid connection rate: 5 in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,python.exe,25448,20.207.73.82,80,47.0,MEDIUM,MEDIUM,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 73; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,python.exe,19916,3.234.199.80,80,62.0,HIGH,HIGH,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 74; Beaconing pattern: 18 hits to 3.234.199.80:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,python.exe,25448,20.207.73.82,443,47.0,MEDIUM,MEDIUM,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 75; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 77; Beaconing pattern: 16 hits to 3.234.199.80:80; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:01,System Idle Process,0,20.207.73.82,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 69 in 60 seconds; High connection frequency baseline: 78; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:29:00,python.exe,19916,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 70 in 60 seconds; High connection frequency baseline: 70; Beaconing pattern: 15 hits to 3.234.199.80:80; Connection burst: 7 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:29:00,python.exe,19916,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 71 in 60 seconds; High connection frequency baseline: 71; Beaconing pattern: 16 hits to 3.234.199.80:80; Connection burst: 8 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:29:00,System Idle Process,0,3.234.199.80,80,81.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 75 in 60 seconds; High connection frequency baseline: 75; Beaconing pattern: 14 hits to 3.234.199.80:80; Rapid connection rate: 5 in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:29:00,python.exe,22016,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 72; Beaconing pattern: 17 hits to 3.234.199.80:80; Connection burst: 9 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:58,python.exe,22016,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 69 in 60 seconds; High connection frequency baseline: 69; Beaconing pattern: 14 hits to 3.234.199.80:80; Connection burst: 9 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:58,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 74 in 60 seconds; High connection frequency baseline: 74; Beaconing pattern: 13 hits to 3.234.199.80:80; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:57,python.exe,23708,93.184.216.34,8080,67.0,HIGH,HIGH,Frequent connections: 68 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 68; Beaconing pattern: 9 hits to 93.184.216.34:8080; Connection burst: 9 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:56,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 73; Beaconing pattern: 12 hits to 3.234.199.80:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:55,python.exe,25448,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 66 in 60 seconds; High connection frequency baseline: 66; Beaconing pattern: 12 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:55,python.exe,22016,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 67 in 60 seconds; High connection frequency baseline: 67; Beaconing pattern: 13 hits to 3.234.199.80:80; Connection burst: 12 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:54,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 72; Beaconing pattern: 11 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:53,python.exe,22016,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 65 in 60 seconds; High connection frequency baseline: 65; Beaconing pattern: 11 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:51,python.exe,23708,93.184.216.34,8080,60.0,HIGH,HIGH,Frequent connections: 64 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 64; Repeated destination: 8 hits to 93.184.216.34:8080; Connection burst: 18 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:51,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 71 in 60 seconds; High connection frequency baseline: 71; Beaconing pattern: 10 hits to 3.234.199.80:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:50,System Idle Process,0,3.234.199.80,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 70 in 60 seconds; High connection frequency baseline: 70; Beaconing pattern: 9 hits to 3.234.199.80:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:50,python.exe,25448,35.190.14.201,443,42.0,MEDIUM,MEDIUM,Frequent connections: 62 in 60 seconds; High connection frequency baseline: 62; Connection burst: 16 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:50,python.exe,22016,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 63 in 60 seconds; High connection frequency baseline: 63; Beaconing pattern: 10 hits to 3.234.199.80:80; Connection burst: 17 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:49,NVIDIA Overlay.exe,25876,142.250.183.170,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:49,System Idle Process,0,3.234.199.80,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 69 in 60 seconds; High connection frequency baseline: 69; Repeated destination: 8 hits to 3.234.199.80:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:49,python.exe,19916,3.234.199.80,80,57.0,HIGH,HIGH,Frequent connections: 61 in 60 seconds; High connection frequency baseline: 61; Beaconing pattern: 9 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:48,System Idle Process,0,3.234.199.80,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 67; Repeated destination: 6 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:48,python.exe,19916,3.234.199.80,80,50.0,MEDIUM,MEDIUM,Frequent connections: 60 in 60 seconds; High connection frequency baseline: 60; Repeated destination: 8 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:48,System Idle Process,0,3.234.199.80,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 68; Repeated destination: 7 hits to 3.234.199.80:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:47,python.exe,19916,3.234.199.80,80,50.0,MEDIUM,MEDIUM,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 57; Repeated destination: 5 hits to 3.234.199.80:80; Connection burst: 13 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:47,System Idle Process,0,3.234.199.80,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 65; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:47,python.exe,19916,3.234.199.80,80,50.0,MEDIUM,MEDIUM,Frequent connections: 58 in 60 seconds; High connection frequency baseline: 58; Repeated destination: 6 hits to 3.234.199.80:80; Connection burst: 14 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:47,System Idle Process,0,3.234.199.80,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 66; Repeated destination: 5 hits to 3.234.199.80:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:47,python.exe,22016,3.234.199.80,80,50.0,MEDIUM,MEDIUM,Frequent connections: 59 in 60 seconds; High connection frequency baseline: 59; Repeated destination: 7 hits to 3.234.199.80:80; Connection burst: 15 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:46,System Idle Process,0,3.234.199.80,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 64; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:46,python.exe,19916,3.234.199.80,80,42.0,MEDIUM,MEDIUM,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 56; Connection burst: 13 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:45,python.exe,22016,3.234.199.80,80,42.0,MEDIUM,MEDIUM,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 54; Connection burst: 12 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:45,System Idle Process,0,3.234.199.80,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 62; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:45,python.exe,19916,3.234.199.80,80,42.0,MEDIUM,MEDIUM,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 55; Connection burst: 13 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:45,System Idle Process,0,3.234.199.80,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 63; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:44,python.exe,19916,3.234.199.80,80,42.0,MEDIUM,MEDIUM,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 51; Connection burst: 9 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:44,python.exe,25448,103.102.166.224,443,42.0,MEDIUM,MEDIUM,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 52; Connection burst: 10 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:44,python.exe,23708,93.184.216.34,8080,60.0,HIGH,HIGH,Frequent connections: 53 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 53; Repeated destination: 7 hits to 93.184.216.34:8080; Connection burst: 11 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:44,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 61; Beaconing pattern: 38 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:43,System Idle Process,0,18.235.15.99,80,81.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 58 in 60 seconds; High connection frequency baseline: 58; Beaconing pattern: 35 hits to 18.235.15.99:80; Rapid connection rate: 5 in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:43,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 59; Beaconing pattern: 36 hits to 18.235.15.99:80; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:43,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 50 in 60 seconds; High connection frequency baseline: 50; Beaconing pattern: 40 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:43,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 60; Beaconing pattern: 37 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:42,python.exe,22016,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 47 in 60 seconds; High connection frequency baseline: 47; Beaconing pattern: 37 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:42,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 48 in 60 seconds; High connection frequency baseline: 48; Beaconing pattern: 38 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:42,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 49 in 60 seconds; High connection frequency baseline: 49; Beaconing pattern: 39 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:40,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 57 in 60 seconds; High connection frequency baseline: 57; Beaconing pattern: 34 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:39,python.exe,22016,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 46 in 60 seconds; High connection frequency baseline: 46; Beaconing pattern: 36 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:38,System Idle Process,0,20.207.73.82,80,75.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 56 in 60 seconds; High connection frequency baseline: 56; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:38,python.exe,25448,20.207.73.82,443,45.0,MEDIUM,MEDIUM,Frequent connections: 45 in 60 seconds; High connection frequency baseline: 45; Connection burst: 10 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:37,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 55 in 60 seconds; High connection frequency baseline: 55; Beaconing pattern: 33 hits to 18.235.15.99:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:37,python.exe,23708,93.184.216.34,8080,63.0,HIGH,HIGH,Frequent connections: 44 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 44; Repeated destination: 6 hits to 93.184.216.34:8080; Connection burst: 10 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:36,python.exe,22016,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 43 in 60 seconds; High connection frequency baseline: 43; Beaconing pattern: 35 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:35,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 54 in 60 seconds; High connection frequency baseline: 54; Beaconing pattern: 32 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:34,python.exe,22016,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 42 in 60 seconds; High connection frequency baseline: 42; Beaconing pattern: 34 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:33,python.exe,25448,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 41 in 60 seconds; High connection frequency baseline: 41; Beaconing pattern: 33 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:32,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 52 in 60 seconds; High connection frequency baseline: 52; Beaconing pattern: 30 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:32,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 53 in 60 seconds; High connection frequency baseline: 53; Beaconing pattern: 31 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:31,python.exe,23708,93.184.216.34,8080,63.0,HIGH,HIGH,Frequent connections: 38 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 38; Repeated destination: 5 hits to 93.184.216.34:8080; Connection burst: 15 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:31,python.exe,22016,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 39 in 60 seconds; High connection frequency baseline: 39; Beaconing pattern: 31 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:31,python.exe,19916,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 40 in 60 seconds; High connection frequency baseline: 40; Beaconing pattern: 32 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:31,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 51 in 60 seconds; High connection frequency baseline: 51; Beaconing pattern: 29 hits to 18.235.15.99:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:30,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 49 in 60 seconds; High connection frequency baseline: 49; Beaconing pattern: 27 hits to 18.235.15.99:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:30,python.exe,19916,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 36 in 60 seconds; High connection frequency baseline: 36; Beaconing pattern: 29 hits to 18.235.15.99:80; Connection burst: 15 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:30,OneDrive.exe,13032,20.189.173.28,443,43.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:30,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 50 in 60 seconds; High connection frequency baseline: 50; Beaconing pattern: 28 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:30,python.exe,19916,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 37 in 60 seconds; High connection frequency baseline: 37; Beaconing pattern: 30 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:29,python.exe,19916,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 35 in 60 seconds; High connection frequency baseline: 35; Beaconing pattern: 28 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:29,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 47; Beaconing pattern: 25 hits to 18.235.15.99:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:29,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 48; Beaconing pattern: 26 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:28,python.exe,19916,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 33 in 60 seconds; High connection frequency baseline: 33; Beaconing pattern: 26 hits to 18.235.15.99:80; Connection burst: 12 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:28,python.exe,22016,18.235.15.99,80,60.0,HIGH,HIGH,Frequent connections: 34 in 60 seconds; High connection frequency baseline: 34; Beaconing pattern: 27 hits to 18.235.15.99:80; Connection burst: 13 connections in 10 seconds; Multiple destinations: 5 unique endpoints,0.5,TCP
+2026-04-22 09:28:28,System Idle Process,0,18.235.15.99,80,90.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 46; Beaconing pattern: 24 hits to 18.235.15.99:80; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,0.5,TCP
+2026-04-22 09:28:27,python.exe,25448,35.190.14.201,443,42.0,MEDIUM,MEDIUM,Frequent connections: 30 in 60 seconds; High connection frequency baseline: 30; Connection burst: 11 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 31 in 60 seconds; High connection frequency baseline: 31; Beaconing pattern: 24 hits to 18.235.15.99:80; Connection burst: 12 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 41; Beaconing pattern: 21 hits to 18.235.15.99:80; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 15 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,System Idle Process,0,35.190.14.201,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 42; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 16 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 43; Beaconing pattern: 22 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 16 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,System Idle Process,0,23.206.173.41,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 44; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 32 in 60 seconds; High connection frequency baseline: 32; Beaconing pattern: 25 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:27,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 45; Beaconing pattern: 23 hits to 18.235.15.99:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:26,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 28 in 60 seconds; High connection frequency baseline: 28; Beaconing pattern: 22 hits to 18.235.15.99:80; Connection burst: 9 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:26,python.exe,22016,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 29 in 60 seconds; High connection frequency baseline: 29; Beaconing pattern: 23 hits to 18.235.15.99:80; Connection burst: 10 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:26,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 39 in 60 seconds; High connection frequency baseline: 39; Beaconing pattern: 20 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:28:26,System Idle Process,0,49.44.50.8,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 40; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 15 unique endpoints,1.0,TCP
+2026-04-22 09:28:26,OneDrive.exe,13032,52.104.173.39,443,33.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 5 in 60 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:25,python.exe,23708,93.184.216.34,8080,52.0,HIGH,HIGH,Frequent connections: 26 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 26; Connection burst: 7 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:25,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 27 in 60 seconds; High connection frequency baseline: 27; Beaconing pattern: 21 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:25,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 38 in 60 seconds; High connection frequency baseline: 38; Beaconing pattern: 19 hits to 18.235.15.99:80; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:28:24,python.exe,19916,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 25 in 60 seconds; High connection frequency baseline: 25; Beaconing pattern: 20 hits to 18.235.15.99:80; Connection burst: 6 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:24,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 37 in 60 seconds; High connection frequency baseline: 37; Beaconing pattern: 18 hits to 18.235.15.99:80; Connection burst: 6 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:28:23,python.exe,22016,18.235.15.99,80,57.0,HIGH,HIGH,Frequent connections: 24 in 60 seconds; High connection frequency baseline: 24; Beaconing pattern: 19 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:22,OneDrive.exe,13032,13.107.137.11,443,33.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 4 in 60 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:22,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 35 in 60 seconds; High connection frequency baseline: 35; Beaconing pattern: 17 hits to 18.235.15.99:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:22,System Idle Process,0,103.102.166.224,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 36 in 60 seconds; High connection frequency baseline: 36; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:28:21,python.exe,22016,18.235.15.99,80,52.0,HIGH,HIGH,Frequent connections: 22 in 60 seconds; High connection frequency baseline: 22; Beaconing pattern: 18 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:21,python.exe,25448,103.102.166.224,443,42.0,MEDIUM,MEDIUM,Frequent connections: 23 in 60 seconds; High connection frequency baseline: 23; Connection burst: 9 connections in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:19,System Idle Process,0,142.251.220.110,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 33 in 60 seconds; High connection frequency baseline: 33; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:19,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 34 in 60 seconds; High connection frequency baseline: 34; Beaconing pattern: 16 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:18,nvcontainer.exe,5144,13.114.167.208,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:18,python.exe,23708,93.184.216.34,8080,42.0,MEDIUM,MEDIUM,Frequent connections: 20 in 60 seconds; Unusual port: 8080; Connection burst: 15 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:18,msedge.exe,28320,20.207.73.82,443,30.0,MEDIUM,MEDIUM,Frequent connections: 38 in 60 seconds; High connection frequency baseline: 38; Multi-destination activity: 27 unique endpoints,1.0,TCP
+2026-04-22 09:28:18,python.exe,22016,18.235.15.99,80,52.0,HIGH,HIGH,Frequent connections: 21 in 60 seconds; High connection frequency baseline: 21; Beaconing pattern: 17 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:17,msedge.exe,28320,34.8.7.18,443,42.0,MEDIUM,MEDIUM,Frequent connections: 37 in 60 seconds; High connection frequency baseline: 37; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 26 unique endpoints,1.0,TCP
+2026-04-22 09:28:16,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 32 in 60 seconds; High connection frequency baseline: 32; Beaconing pattern: 15 hits to 18.235.15.99:80; Connection burst: 20 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:15,System Idle Process,0,20.207.73.82,80,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 30 in 60 seconds; High connection frequency baseline: 30; Connection burst: 21 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:15,python.exe,25448,20.207.73.82,443,32.0,MEDIUM,MEDIUM,Frequent connections: 18 in 60 seconds; Connection burst: 16 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:15,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 31 in 60 seconds; High connection frequency baseline: 31; Beaconing pattern: 14 hits to 18.235.15.99:80; Connection burst: 22 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:15,python.exe,22016,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 19 in 60 seconds; Beaconing pattern: 16 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:14,python.exe,19916,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 17 in 60 seconds; Beaconing pattern: 15 hits to 18.235.15.99:80; Connection burst: 17 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:14,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 28 in 60 seconds; High connection frequency baseline: 28; Beaconing pattern: 12 hits to 18.235.15.99:80; Connection burst: 19 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:28:14,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 29 in 60 seconds; High connection frequency baseline: 29; Beaconing pattern: 13 hits to 18.235.15.99:80; Connection burst: 20 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:28:13,python.exe,22016,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 15 in 60 seconds; Beaconing pattern: 13 hits to 18.235.15.99:80; Connection burst: 15 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:13,System Idle Process,0,20.190.174.43,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 26 in 60 seconds; High connection frequency baseline: 26; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:28:13,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 27 in 60 seconds; High connection frequency baseline: 27; Beaconing pattern: 11 hits to 18.235.15.99:80; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:28:13,nvcontainer.exe,5144,72.25.64.2,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:13,python.exe,19916,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 16 in 60 seconds; Beaconing pattern: 14 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:12,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 24 in 60 seconds; High connection frequency baseline: 24; Beaconing pattern: 9 hits to 18.235.15.99:80; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:12,python.exe,23708,93.184.216.34,8080,42.0,MEDIUM,MEDIUM,Frequent connections: 12 in 60 seconds; Unusual port: 8080; Connection burst: 12 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:12,python.exe,19916,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 13 in 60 seconds; Beaconing pattern: 11 hits to 18.235.15.99:80; Connection burst: 13 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:12,System Idle Process,0,18.235.15.99,80,87.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 25 in 60 seconds; High connection frequency baseline: 25; Beaconing pattern: 10 hits to 18.235.15.99:80; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:12,python.exe,19916,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 14 in 60 seconds; Beaconing pattern: 12 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:11,System Idle Process,0,20.189.173.28,443,72.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 21 in 60 seconds; High connection frequency baseline: 21; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:11,python.exe,19916,18.235.15.99,80,47.0,MEDIUM,MEDIUM,Frequent connections: 11 in 60 seconds; Beaconing pattern: 10 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:11,System Idle Process,0,18.235.15.99,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 22 in 60 seconds; High connection frequency baseline: 22; Repeated destination: 7 hits to 18.235.15.99:80; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:11,System Idle Process,0,18.235.15.99,80,80.0,CRITICAL,CRITICAL,Unknown process not in whitelist; Frequent connections: 23 in 60 seconds; High connection frequency baseline: 23; Repeated destination: 8 hits to 18.235.15.99:80; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:10,python.exe,19916,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Multiple connections: 8 in 60 seconds; Repeated destination: 7 hits to 18.235.15.99:80; Connection burst: 8 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:10,System Idle Process,0,18.235.15.99,80,75.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 19 in 60 seconds; Repeated destination: 5 hits to 18.235.15.99:80; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:10,System Idle Process,0,18.235.15.99,80,75.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 20 in 60 seconds; Repeated destination: 6 hits to 18.235.15.99:80; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:10,python.exe,19916,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Multiple connections: 9 in 60 seconds; Repeated destination: 8 hits to 18.235.15.99:80; Connection burst: 9 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:10,python.exe,22016,18.235.15.99,80,37.0,MEDIUM,MEDIUM,Multiple connections: 10 in 60 seconds; Beaconing pattern: 9 hits to 18.235.15.99:80; Connection burst: 10 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:09,System Idle Process,0,18.235.15.99,80,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 17 in 60 seconds; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,python.exe,19916,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Multiple connections: 6 in 60 seconds; Repeated destination: 5 hits to 18.235.15.99:80; Connection burst: 6 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,100.30.67.110,443,42.0,MEDIUM,MEDIUM,Frequent connections: 29 in 60 seconds; High connection frequency baseline: 29; Connection burst: 29 connections in 10 seconds; Multi-destination activity: 24 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,100.30.67.110,443,42.0,MEDIUM,MEDIUM,Frequent connections: 30 in 60 seconds; High connection frequency baseline: 30; Connection burst: 30 connections in 10 seconds; Multi-destination activity: 24 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,python.exe,25448,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Multiple connections: 7 in 60 seconds; Repeated destination: 6 hits to 18.235.15.99:80; Connection burst: 7 connections in 10 seconds,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,52.21.70.220,443,42.0,MEDIUM,MEDIUM,Frequent connections: 31 in 60 seconds; High connection frequency baseline: 31; Connection burst: 31 connections in 10 seconds; Multi-destination activity: 25 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,System Idle Process,0,18.235.15.99,80,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 18 in 60 seconds; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,100.30.67.110,443,42.0,MEDIUM,MEDIUM,Frequent connections: 32 in 60 seconds; High connection frequency baseline: 32; Connection burst: 32 connections in 10 seconds; Multi-destination activity: 25 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,100.30.67.110,443,42.0,MEDIUM,MEDIUM,Frequent connections: 33 in 60 seconds; High connection frequency baseline: 33; Connection burst: 33 connections in 10 seconds; Multi-destination activity: 25 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,35.237.69.59,443,42.0,MEDIUM,MEDIUM,Frequent connections: 34 in 60 seconds; High connection frequency baseline: 34; Connection burst: 34 connections in 10 seconds; Multi-destination activity: 26 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,35.237.69.59,443,42.0,MEDIUM,MEDIUM,Frequent connections: 35 in 60 seconds; High connection frequency baseline: 35; Connection burst: 35 connections in 10 seconds; Multi-destination activity: 26 unique endpoints,1.0,TCP
+2026-04-22 09:28:09,msedge.exe,28320,35.237.69.59,443,42.0,MEDIUM,MEDIUM,Frequent connections: 36 in 60 seconds; High connection frequency baseline: 36; Connection burst: 36 connections in 10 seconds; Multi-destination activity: 26 unique endpoints,1.0,TCP
+2026-04-22 09:28:08,python.exe,22016,18.235.15.99,80,9.0,SAFE,SAFE,Elevated connection rate: 4 in 60 seconds; Rapid connection rate: 4 in 10 seconds,1.0,TCP
+2026-04-22 09:28:08,System Idle Process,0,18.161.216.23,443,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 13 in 60 seconds; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:28:08,python.exe,19916,18.235.15.99,80,9.0,SAFE,SAFE,Elevated connection rate: 5 in 60 seconds; Rapid connection rate: 5 in 10 seconds,1.0,TCP
+2026-04-22 09:28:08,System Idle Process,0,18.235.15.99,80,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 14 in 60 seconds; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:28:08,msedge.exe,28320,23.206.173.73,443,42.0,MEDIUM,MEDIUM,Frequent connections: 28 in 60 seconds; High connection frequency baseline: 28; Connection burst: 28 connections in 10 seconds; Multi-destination activity: 23 unique endpoints,1.0,TCP
+2026-04-22 09:28:08,System Idle Process,0,142.251.220.110,443,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 15 in 60 seconds; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:28:08,System Idle Process,0,34.8.7.18,443,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 16 in 60 seconds; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:07,python.exe,19916,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:06,System Idle Process,0,40.104.68.34,443,57.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:28:06,System Idle Process,0,18.235.15.99,80,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:28:06,System Idle Process,0,40.104.68.34,443,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 12 in 60 seconds; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:28:05,python.exe,22016,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:05,python.exe,23708,93.184.216.34,8080,5.0,SAFE,SAFE,Unusual port: 8080,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,20.42.65.85,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,RiotClientServices.exe,11848,104.18.41.183,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,OneDrive.exe,13032,20.189.173.28,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,4.188.92.87,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,23.11.39.161,80,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,23.206.173.115,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,142.250.76.195,80,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,RiotClientServices.exe,11848,104.18.41.183,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,svchost.exe,5472,4.213.25.241,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,104.18.36.252,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,40.104.77.82,443,9.0,SAFE,SAFE,Elevated connection rate: 4 in 60 seconds; Rapid connection rate: 4 in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,142.251.220.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,40.99.31.162,443,9.0,SAFE,SAFE,Elevated connection rate: 5 in 60 seconds; Rapid connection rate: 5 in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.27.11,443,22.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds; Connection burst: 6 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedgewebview2.exe,27280,23.206.173.82,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,NVIDIA Overlay.exe,25876,72.25.64.32,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,NVIDIA Overlay.exe,25876,72.25.64.32,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,140.82.114.25,443,27.0,MEDIUM,MEDIUM,Multiple connections: 7 in 60 seconds; Connection burst: 7 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.27.11,443,27.0,MEDIUM,MEDIUM,Multiple connections: 8 in 60 seconds; Connection burst: 8 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,StartMenuExperienceHost.exe,21416,52.110.16.165,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,54.205.137.114,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,104.18.86.42,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,185.199.109.215,443,27.0,MEDIUM,MEDIUM,Multiple connections: 9 in 60 seconds; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Code.exe,25076,150.171.73.16,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.28.11,443,27.0,MEDIUM,MEDIUM,Multiple connections: 10 in 60 seconds; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,23.206.173.41,443,37.0,MEDIUM,MEDIUM,Frequent connections: 11 in 60 seconds; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 10 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,40.126.17.131,443,39.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 4 in 60 seconds; Rapid connection rate: 4 in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,18.155.93.43,443,39.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 4 in 60 seconds; Rapid connection rate: 4 in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,RiotClientServices.exe,11848,104.16.55.40,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,RiotClientServices.exe,11848,104.18.157.37,443,34.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 4 in 60 seconds; Rapid connection rate: 4 in 10 seconds,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,8.8.8.8,443,39.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 5 in 60 seconds; Rapid connection rate: 5 in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,40.126.17.131,443,39.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 5 in 60 seconds; Rapid connection rate: 5 in 10 seconds; Multiple destinations: 4 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,54.205.137.114,443,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; Connection burst: 6 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,140.82.114.21,443,37.0,MEDIUM,MEDIUM,Frequent connections: 12 in 60 seconds; Connection burst: 12 connections in 10 seconds; Multi-destination activity: 11 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,OneDrive.exe,13032,4.213.25.242,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,18608,40.104.68.34,443,37.0,MEDIUM,MEDIUM,Frequent connections: 13 in 60 seconds; Connection burst: 13 connections in 10 seconds; Multi-destination activity: 12 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,34.8.7.18,443,37.0,MEDIUM,MEDIUM,Frequent connections: 14 in 60 seconds; Connection burst: 14 connections in 10 seconds; Multi-destination activity: 13 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.27.12,443,37.0,MEDIUM,MEDIUM,Frequent connections: 15 in 60 seconds; Connection burst: 15 connections in 10 seconds; Multi-destination activity: 14 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,OneDrive.exe,13032,20.190.174.43,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,135.130.78.161,443,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; Connection burst: 6 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,54.205.137.114,443,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; Connection burst: 7 connections in 10 seconds; Multiple destinations: 5 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,49.44.50.8,443,37.0,MEDIUM,MEDIUM,Frequent connections: 16 in 60 seconds; Connection burst: 16 connections in 10 seconds; Multi-destination activity: 15 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,nvcontainer.exe,11732,23.55.244.170,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,23.222.31.124,80,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; Connection burst: 7 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,142.250.76.195,80,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; Connection burst: 8 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,185.199.109.215,443,37.0,MEDIUM,MEDIUM,Frequent connections: 17 in 60 seconds; Connection burst: 17 connections in 10 seconds; Multi-destination activity: 15 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,140.82.113.21,443,37.0,MEDIUM,MEDIUM,Frequent connections: 18 in 60 seconds; Connection burst: 18 connections in 10 seconds; Multi-destination activity: 16 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.110.83,443,37.0,MEDIUM,MEDIUM,Frequent connections: 19 in 60 seconds; Connection burst: 19 connections in 10 seconds; Multi-destination activity: 17 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,System Idle Process,0,40.126.17.131,443,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; Connection burst: 9 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Code.exe,25076,23.206.173.99,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,8.8.4.4,443,52.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; Connection burst: 8 connections in 10 seconds; Multiple destinations: 6 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,RiotClientServices.exe,11848,104.16.55.40,443,34.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Elevated connection rate: 5 in 60 seconds; Rapid connection rate: 5 in 10 seconds,1.0,TCP
+2026-04-22 09:28:01,Code.exe,25076,20.50.73.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.27.10,443,37.0,MEDIUM,MEDIUM,Frequent connections: 20 in 60 seconds; Connection burst: 20 connections in 10 seconds; Multi-destination activity: 18 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,23.206.173.89,443,42.0,MEDIUM,MEDIUM,Frequent connections: 21 in 60 seconds; High connection frequency baseline: 21; Connection burst: 21 connections in 10 seconds; Multi-destination activity: 19 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,185.199.109.133,443,42.0,MEDIUM,MEDIUM,Frequent connections: 22 in 60 seconds; High connection frequency baseline: 22; Connection burst: 22 connections in 10 seconds; Multi-destination activity: 20 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,142.251.220.110,443,42.0,MEDIUM,MEDIUM,Frequent connections: 23 in 60 seconds; High connection frequency baseline: 23; Connection burst: 23 connections in 10 seconds; Multi-destination activity: 21 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,svchost.exe,26928,49.44.198.161,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,svchost.exe,5472,4.213.25.241,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,18.161.216.23,443,42.0,MEDIUM,MEDIUM,Frequent connections: 24 in 60 seconds; High connection frequency baseline: 24; Connection burst: 24 connections in 10 seconds; Multi-destination activity: 22 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,StartMenuExperienceHost.exe,21416,52.110.16.163,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,23.206.173.115,443,42.0,MEDIUM,MEDIUM,Frequent connections: 25 in 60 seconds; High connection frequency baseline: 25; Connection burst: 25 connections in 10 seconds; Multi-destination activity: 22 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,162.159.140.165,443,57.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; Connection burst: 9 connections in 10 seconds; Multi-destination activity: 7 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,142.251.220.110,443,57.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; Connection burst: 10 connections in 10 seconds; Multi-destination activity: 8 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,SystemSettings.exe,13904,20.99.186.246,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,18608,40.104.68.34,443,42.0,MEDIUM,MEDIUM,Frequent connections: 26 in 60 seconds; High connection frequency baseline: 26; Connection burst: 26 connections in 10 seconds; Multi-destination activity: 22 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,msedge.exe,28320,150.171.27.11,443,42.0,MEDIUM,MEDIUM,Frequent connections: 27 in 60 seconds; High connection frequency baseline: 27; Connection burst: 27 connections in 10 seconds; Multi-destination activity: 22 unique endpoints,1.0,TCP
+2026-04-22 09:28:01,Creative Cloud UI Helper.exe,10128,49.44.153.37,443,67.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; Connection burst: 11 connections in 10 seconds; Multi-destination activity: 9 unique endpoints,1.0,TCP
+2026-04-22 02:14:14,System Idle Process,0,216.239.36.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; High connection frequency baseline: 277,1.0,TCP
+2026-04-22 02:14:12,System Idle Process,0,34.54.84.110,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 276,1.0,TCP
+2026-04-22 02:14:11,msedge.exe,29944,98.87.241.185,443,15.0,SAFE,SAFE,User is idle but process is active; High connection frequency baseline: 76,0.0,TCP
+2026-04-22 02:14:07,language_server_windows_x64.exe,29652,216.239.34.223,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 42,0.0,TCP
+2026-04-22 02:14:05,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 41,0.0,TCP
+2026-04-22 02:13:37,msedge.exe,29944,16.146.208.119,443,15.0,SAFE,SAFE,User is idle but process is active; High connection frequency baseline: 74,0.0,TCP
+2026-04-22 02:13:37,System Idle Process,0,142.251.221.206,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; User is idle but process is active; High connection frequency baseline: 273,0.0,TCP
+2026-04-22 02:13:37,System Idle Process,0,18.161.229.66,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; User is idle but process is active; High connection frequency baseline: 274,0.0,TCP
+2026-04-22 02:13:37,System Idle Process,0,34.8.7.18,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; User is idle but process is active; High connection frequency baseline: 275,0.0,TCP
+2026-04-22 02:13:37,msedge.exe,29944,3.228.248.209,443,15.0,SAFE,SAFE,User is idle but process is active; High connection frequency baseline: 75,0.0,TCP
+2026-04-22 02:13:34,System Idle Process,0,52.104.173.39,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 272,0.0,TCP
+2026-04-22 02:13:33,OneDrive.exe,19120,52.104.173.39,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:13:30,OneDrive.exe,19120,13.107.137.11,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:13:29,OneDrive.exe,19120,13.107.137.11,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:13:29,System Idle Process,0,13.107.137.11,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 271,0.0,TCP
+2026-04-22 02:13:15,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 40,0.0,TCP
+2026-04-22 02:13:15,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 270,0.0,TCP
+2026-04-22 02:13:11,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 269,0.0,TCP
+2026-04-22 02:13:05,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 39,0.0,TCP
+2026-04-22 02:13:01,System Idle Process,0,52.98.88.242,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 267,0.0,TCP
+2026-04-22 02:13:01,System Idle Process,0,52.98.88.242,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 268,0.0,TCP
+2026-04-22 02:13:00,System Idle Process,0,20.190.145.141,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 266,0.0,TCP
+2026-04-22 02:12:24,System Idle Process,0,142.251.43.129,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 265,0.0,TCP
+2026-04-22 02:12:15,System Idle Process,0,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 264,0.0,TCP
+2026-04-22 02:12:14,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 38,0.0,TCP
+2026-04-22 02:12:12,svchost.exe,3628,199.232.214.172,80,0.0,SAFE,SAFE,User is idle but process is active,0.0,TCP
+2026-04-22 02:12:11,System Idle Process,0,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 263,0.0,TCP
+2026-04-22 02:12:11,svchost.exe,3628,199.232.214.172,80,0.0,SAFE,SAFE,User is idle but process is active,0.0,TCP
+2026-04-22 02:12:10,msedge.exe,29944,150.171.27.11,443,40.0,MEDIUM,MEDIUM,Frequent connections: 38 in 60 seconds; User is idle but process is active; High connection frequency baseline: 73,0.0,TCP
+2026-04-22 02:12:05,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 37,0.0,TCP
+2026-04-22 02:11:44,svchost.exe,5052,52.185.211.133,443,0.0,SAFE,SAFE,User is idle but process is active,0.0,TCP
+2026-04-22 02:11:41,msedge.exe,29944,40.104.66.98,443,20.0,SAFE,SAFE,Frequent connections: 41 in 60 seconds; High connection frequency baseline: 72,0.5,TCP
+2026-04-22 02:11:40,msedge.exe,29944,150.171.110.83,443,20.0,SAFE,SAFE,Frequent connections: 39 in 60 seconds; High connection frequency baseline: 70,0.5,TCP
+2026-04-22 02:11:40,msedge.exe,29944,142.251.221.206,443,20.0,SAFE,SAFE,Frequent connections: 40 in 60 seconds; High connection frequency baseline: 71,0.5,TCP
+2026-04-22 02:11:26,msedge.exe,29944,34.8.7.18,443,20.0,SAFE,SAFE,Frequent connections: 38 in 60 seconds; High connection frequency baseline: 69,0.5,TCP
+2026-04-22 02:11:18,msedge.exe,29944,52.182.143.214,443,20.0,SAFE,SAFE,Frequent connections: 36 in 60 seconds; High connection frequency baseline: 67,1.0,TCP
+2026-04-22 02:11:18,msedge.exe,29944,108.159.15.29,443,20.0,SAFE,SAFE,Frequent connections: 37 in 60 seconds; High connection frequency baseline: 68,1.0,TCP
+2026-04-22 02:11:17,msedge.exe,29944,52.182.143.214,443,20.0,SAFE,SAFE,Frequent connections: 35 in 60 seconds; High connection frequency baseline: 66,1.0,TCP
+2026-04-22 02:11:16,gamingservices.exe,8588,184.84.233.66,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:11:16,msedge.exe,29944,44.197.17.220,443,20.0,SAFE,SAFE,Frequent connections: 31 in 60 seconds; High connection frequency baseline: 62,1.0,TCP
+2026-04-22 02:11:16,msedge.exe,29944,44.197.17.220,443,20.0,SAFE,SAFE,Frequent connections: 32 in 60 seconds; High connection frequency baseline: 63,1.0,TCP
+2026-04-22 02:11:16,msedge.exe,29944,44.232.164.14,443,20.0,SAFE,SAFE,Frequent connections: 33 in 60 seconds; High connection frequency baseline: 64,1.0,TCP
+2026-04-22 02:11:16,msedge.exe,29944,44.197.17.220,443,20.0,SAFE,SAFE,Frequent connections: 34 in 60 seconds; High connection frequency baseline: 65,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,8.8.4.4,443,20.0,SAFE,SAFE,Frequent connections: 16 in 60 seconds; High connection frequency baseline: 47,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,8.8.4.4,443,20.0,SAFE,SAFE,Frequent connections: 17 in 60 seconds; High connection frequency baseline: 48,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,8.8.8.8,443,20.0,SAFE,SAFE,Frequent connections: 18 in 60 seconds; High connection frequency baseline: 49,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.66,443,20.0,SAFE,SAFE,Frequent connections: 19 in 60 seconds; High connection frequency baseline: 50,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,150.171.110.84,443,20.0,SAFE,SAFE,Frequent connections: 20 in 60 seconds; High connection frequency baseline: 51,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.235,443,20.0,SAFE,SAFE,Frequent connections: 21 in 60 seconds; High connection frequency baseline: 52,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,18.161.229.66,443,20.0,SAFE,SAFE,Frequent connections: 22 in 60 seconds; High connection frequency baseline: 53,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.235,443,20.0,SAFE,SAFE,Frequent connections: 23 in 60 seconds; High connection frequency baseline: 54,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.67,443,20.0,SAFE,SAFE,Frequent connections: 24 in 60 seconds; High connection frequency baseline: 55,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,150.171.28.10,443,20.0,SAFE,SAFE,Frequent connections: 25 in 60 seconds; High connection frequency baseline: 56,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,150.171.110.82,443,20.0,SAFE,SAFE,Frequent connections: 26 in 60 seconds; High connection frequency baseline: 57,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.66,443,20.0,SAFE,SAFE,Frequent connections: 27 in 60 seconds; High connection frequency baseline: 58,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.91,443,20.0,SAFE,SAFE,Frequent connections: 28 in 60 seconds; High connection frequency baseline: 59,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,150.171.27.12,443,20.0,SAFE,SAFE,Frequent connections: 29 in 60 seconds; High connection frequency baseline: 60,1.0,TCP
+2026-04-22 02:11:15,msedge.exe,29944,184.84.233.248,443,20.0,SAFE,SAFE,Frequent connections: 30 in 60 seconds; High connection frequency baseline: 61,1.0,TCP
+2026-04-22 02:11:14,language_server_windows_x64.exe,29652,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 36,1.0,TCP
+2026-04-22 02:11:14,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 76 in 60 seconds; High connection frequency baseline: 262,1.0,TCP
+2026-04-22 02:11:13,msedge.exe,29944,44.193.140.57,443,20.0,SAFE,SAFE,Frequent connections: 15 in 60 seconds; High connection frequency baseline: 46,1.0,TCP
+2026-04-22 02:11:12,msedge.exe,29944,34.226.21.97,443,20.0,SAFE,SAFE,Frequent connections: 14 in 60 seconds; High connection frequency baseline: 45,1.0,TCP
+2026-04-22 02:11:12,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 80 in 60 seconds; High connection frequency baseline: 261,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,150.171.27.11,443,0.0,SAFE,SAFE,High connection frequency baseline: 36,1.0,TCP
+2026-04-22 02:11:11,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 78 in 60 seconds; High connection frequency baseline: 259,1.0,TCP
+2026-04-22 02:11:11,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 262,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,18.233.217.48,443,5.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds; High connection frequency baseline: 37,1.0,TCP
+2026-04-22 02:11:11,System Idle Process,0,216.239.36.223,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 79 in 60 seconds; High connection frequency baseline: 260,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,52.201.112.34,443,5.0,SAFE,SAFE,Multiple connections: 7 in 60 seconds; High connection frequency baseline: 38,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,52.201.112.34,443,5.0,SAFE,SAFE,Multiple connections: 8 in 60 seconds; High connection frequency baseline: 39,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,150.171.27.11,443,5.0,SAFE,SAFE,Multiple connections: 9 in 60 seconds; High connection frequency baseline: 40,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,52.73.252.224,443,5.0,SAFE,SAFE,Multiple connections: 10 in 60 seconds; High connection frequency baseline: 41,1.0,TCP
+2026-04-22 02:11:11,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 263,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,24928,52.98.88.242,443,20.0,SAFE,SAFE,Frequent connections: 11 in 60 seconds; High connection frequency baseline: 42,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,24928,52.98.88.242,443,20.0,SAFE,SAFE,Frequent connections: 12 in 60 seconds; High connection frequency baseline: 43,1.0,TCP
+2026-04-22 02:11:11,msedge.exe,29944,104.18.36.252,443,20.0,SAFE,SAFE,Frequent connections: 13 in 60 seconds; High connection frequency baseline: 44,1.0,TCP
+2026-04-22 02:11:10,msedge.exe,29944,150.171.27.11,443,0.0,SAFE,SAFE,High connection frequency baseline: 33,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,40.79.173.41,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 248,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,104.18.31.173,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 69 in 60 seconds; High connection frequency baseline: 249,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,34.8.7.18,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 70 in 60 seconds; High connection frequency baseline: 250,1.0,TCP
+2026-04-22 02:11:10,python.exe,27292,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 260,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,40.104.122.194,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 71 in 60 seconds; High connection frequency baseline: 251,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,108.159.15.104,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 252,1.0,TCP
+2026-04-22 02:11:10,msedge.exe,29944,150.171.27.11,443,0.0,SAFE,SAFE,High connection frequency baseline: 34,1.0,TCP
+2026-04-22 02:11:10,msedge.exe,29944,52.201.112.34,443,0.0,SAFE,SAFE,High connection frequency baseline: 35,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,150.171.28.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 72 in 60 seconds; High connection frequency baseline: 253,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,150.171.27.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 73 in 60 seconds; High connection frequency baseline: 254,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 74 in 60 seconds; High connection frequency baseline: 255,1.0,TCP
+2026-04-22 02:11:10,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 261,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 75 in 60 seconds; High connection frequency baseline: 256,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,150.171.27.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 76 in 60 seconds; High connection frequency baseline: 257,1.0,TCP
+2026-04-22 02:11:10,svchost.exe,28984,20.190.145.141,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:11:10,System Idle Process,0,40.100.141.162,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 77 in 60 seconds; High connection frequency baseline: 258,1.0,TCP
+2026-04-22 02:11:09,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 80 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 258,1.0,TCP
+2026-04-22 02:11:09,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 246,1.0,TCP
+2026-04-22 02:11:09,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 247,1.0,TCP
+2026-04-22 02:11:09,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 259,1.0,TCP
+2026-04-22 02:11:08,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 256,1.0,TCP
+2026-04-22 02:11:08,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 257,1.0,TCP
+2026-04-22 02:11:08,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 245,1.0,TCP
+2026-04-22 02:11:07,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 254,1.0,TCP
+2026-04-22 02:11:07,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 243,1.0,TCP
+2026-04-22 02:11:07,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 255,1.0,TCP
+2026-04-22 02:11:07,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 244,1.0,TCP
+2026-04-22 02:11:06,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 252,1.0,TCP
+2026-04-22 02:11:06,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 241,1.0,TCP
+2026-04-22 02:11:06,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 242,1.0,TCP
+2026-04-22 02:11:06,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 253,1.0,TCP
+2026-04-22 02:11:05,language_server_windows_x64.exe,29652,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 35,1.0,TCP
+2026-04-22 02:11:05,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 238,1.0,TCP
+2026-04-22 02:11:05,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 250,1.0,TCP
+2026-04-22 02:11:05,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 251,1.0,TCP
+2026-04-22 02:11:05,System Idle Process,0,34.8.7.18,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 239,1.0,TCP
+2026-04-22 02:11:05,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 240,1.0,TCP
+2026-04-22 02:11:05,msedge.exe,21652,34.8.7.18,443,0.0,SAFE,SAFE,High connection frequency baseline: 32,1.0,TCP
+2026-04-22 02:11:04,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 236,1.0,TCP
+2026-04-22 02:11:04,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 71 in 60 seconds; High connection frequency baseline: 248,1.0,TCP
+2026-04-22 02:11:04,System Idle Process,0,13.89.179.13,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 237,1.0,TCP
+2026-04-22 02:11:04,python.exe,27292,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 249,1.0,TCP
+2026-04-22 02:11:03,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 247,1.0,TCP
+2026-04-22 02:11:02,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 72 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 246,1.0,TCP
+2026-04-22 02:11:01,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 245,1.0,TCP
+2026-04-22 02:11:01,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 235,1.0,TCP
+2026-04-22 02:11:00,System Idle Process,0,216.239.34.223,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 234,1.0,TCP
+2026-04-22 02:10:59,System Idle Process,0,216.239.36.223,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 231,1.0,TCP
+2026-04-22 02:10:59,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 232,1.0,TCP
+2026-04-22 02:10:59,python.exe,27292,103.102.166.224,443,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 244,1.0,TCP
+2026-04-22 02:10:59,System Idle Process,0,216.239.34.223,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 233,1.0,TCP
+2026-04-22 02:10:58,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 243,1.0,TCP
+2026-04-22 02:10:56,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 79 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 241,1.0,TCP
+2026-04-22 02:10:56,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 242,1.0,TCP
+2026-04-22 02:10:56,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 230,1.0,TCP
+2026-04-22 02:10:54,language_server_windows_x64.exe,412,142.251.43.129,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 34,1.0,TCP
+2026-04-22 02:10:54,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 227,1.0,TCP
+2026-04-22 02:10:54,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 228,1.0,TCP
+2026-04-22 02:10:54,Antigravity.exe,4576,216.239.36.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:10:54,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 240,1.0,TCP
+2026-04-22 02:10:54,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 229,1.0,TCP
+2026-04-22 02:10:53,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 238,1.0,TCP
+2026-04-22 02:10:53,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 226,1.0,TCP
+2026-04-22 02:10:53,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 239,1.0,TCP
+2026-04-22 02:10:52,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 236,1.0,TCP
+2026-04-22 02:10:52,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 224,1.0,TCP
+2026-04-22 02:10:52,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 237,1.0,TCP
+2026-04-22 02:10:52,Antigravity.exe,4576,216.239.34.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:10:52,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 225,1.0,TCP
+2026-04-22 02:10:51,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 235,1.0,TCP
+2026-04-22 02:10:51,Antigravity.exe,4576,216.239.34.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:10:51,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 223,1.0,TCP
+2026-04-22 02:10:50,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 222,1.0,TCP
+2026-04-22 02:10:50,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 234,1.0,TCP
+2026-04-22 02:10:49,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 220,1.0,TCP
+2026-04-22 02:10:49,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 221,1.0,TCP
+2026-04-22 02:10:49,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 232,1.0,TCP
+2026-04-22 02:10:49,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 77 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 233,1.0,TCP
+2026-04-22 02:10:48,python.exe,27292,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 229,1.0,TCP
+2026-04-22 02:10:48,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 219,1.0,TCP
+2026-04-22 02:10:48,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 230,1.0,TCP
+2026-04-22 02:10:48,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 231,1.0,TCP
+2026-04-22 02:10:47,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 228,1.0,TCP
+2026-04-22 02:10:47,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 58 in 60 seconds; High connection frequency baseline: 218,1.0,TCP
+2026-04-22 02:10:46,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 226,1.0,TCP
+2026-04-22 02:10:46,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 56 in 60 seconds; High connection frequency baseline: 216,1.0,TCP
+2026-04-22 02:10:46,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 57 in 60 seconds; High connection frequency baseline: 217,1.0,TCP
+2026-04-22 02:10:46,python.exe,28692,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 227,1.0,TCP
+2026-04-22 02:10:45,python.exe,8084,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 71 in 60 seconds; High connection frequency baseline: 225,1.0,TCP
+2026-04-22 02:10:44,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 57 in 60 seconds; High connection frequency baseline: 215,1.0,TCP
+2026-04-22 02:10:43,python.exe,27292,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 222,1.0,TCP
+2026-04-22 02:10:43,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 223,1.0,TCP
+2026-04-22 02:10:43,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 74 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 224,1.0,TCP
+2026-04-22 02:10:41,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 221,1.0,TCP
+2026-04-22 02:10:41,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 214,1.0,TCP
+2026-04-22 02:10:39,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 213,1.0,TCP
+2026-04-22 02:10:38,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 220,1.0,TCP
+2026-04-22 02:10:37,python.exe,27292,103.102.166.224,443,25.0,SAFE,SAFE,Frequent connections: 82 in 60 seconds; High connection frequency baseline: 219,1.0,TCP
+2026-04-22 02:10:36,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 81 in 60 seconds; High connection frequency baseline: 217,1.0,TCP
+2026-04-22 02:10:36,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 211,1.0,TCP
+2026-04-22 02:10:36,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 82 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 218,1.0,TCP
+2026-04-22 02:10:36,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 212,1.0,TCP
+2026-04-22 02:10:35,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 209,1.0,TCP
+2026-04-22 02:10:35,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 215,1.0,TCP
+2026-04-22 02:10:35,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 216,1.0,TCP
+2026-04-22 02:10:35,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 210,1.0,TCP
+2026-04-22 02:10:34,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 207,1.0,TCP
+2026-04-22 02:10:34,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 208,1.0,TCP
+2026-04-22 02:10:34,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 214,1.0,TCP
+2026-04-22 02:10:33,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 211,1.0,TCP
+2026-04-22 02:10:33,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 205,1.0,TCP
+2026-04-22 02:10:33,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 212,1.0,TCP
+2026-04-22 02:10:33,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 213,1.0,TCP
+2026-04-22 02:10:33,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 206,1.0,TCP
+2026-04-22 02:10:32,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 204,1.0,TCP
+2026-04-22 02:10:32,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 210,1.0,TCP
+2026-04-22 02:10:31,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 207,1.0,TCP
+2026-04-22 02:10:31,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 201,1.0,TCP
+2026-04-22 02:10:31,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 208,1.0,TCP
+2026-04-22 02:10:31,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 209,1.0,TCP
+2026-04-22 02:10:31,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 202,1.0,TCP
+2026-04-22 02:10:31,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 203,1.0,TCP
+2026-04-22 02:10:30,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 200,1.0,TCP
+2026-04-22 02:10:30,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 72 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 205,1.0,TCP
+2026-04-22 02:10:30,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 206,1.0,TCP
+2026-04-22 02:10:29,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 204,1.0,TCP
+2026-04-22 02:10:29,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 199,1.0,TCP
+2026-04-22 02:10:28,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 71 in 60 seconds; High connection frequency baseline: 203,1.0,TCP
+2026-04-22 02:10:27,python.exe,27292,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 70 in 60 seconds; High connection frequency baseline: 202,1.0,TCP
+2026-04-22 02:10:26,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 201,1.0,TCP
+2026-04-22 02:10:26,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 198,1.0,TCP
+2026-04-22 02:10:24,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 197,1.0,TCP
+2026-04-22 02:10:23,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 76 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 199,1.0,TCP
+2026-04-22 02:10:23,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 200,1.0,TCP
+2026-04-22 02:10:21,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 196,1.0,TCP
+2026-04-22 02:10:21,python.exe,27292,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 197,1.0,TCP
+2026-04-22 02:10:21,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 196,1.0,TCP
+2026-04-22 02:10:21,python.exe,27292,151.101.3.19,443,25.0,SAFE,SAFE,Frequent connections: 80 in 60 seconds; High connection frequency baseline: 198,1.0,TCP
+2026-04-22 02:10:19,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 195,1.0,TCP
+2026-04-22 02:10:19,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 67 in 60 seconds; High connection frequency baseline: 193,1.0,TCP
+2026-04-22 02:10:19,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 68 in 60 seconds; High connection frequency baseline: 194,1.0,TCP
+2026-04-22 02:10:19,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 69 in 60 seconds; High connection frequency baseline: 195,1.0,TCP
+2026-04-22 02:10:18,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 78 in 60 seconds; High connection frequency baseline: 193,1.0,TCP
+2026-04-22 02:10:18,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 79 in 60 seconds; High connection frequency baseline: 194,1.0,TCP
+2026-04-22 02:10:18,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 192,1.0,TCP
+2026-04-22 02:10:17,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 191,1.0,TCP
+2026-04-22 02:10:17,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 78 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 192,1.0,TCP
+2026-04-22 02:10:17,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 66 in 60 seconds; High connection frequency baseline: 191,1.0,TCP
+2026-04-22 02:10:16,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 63 in 60 seconds; High connection frequency baseline: 188,1.0,TCP
+2026-04-22 02:10:16,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 76 in 60 seconds; High connection frequency baseline: 189,1.0,TCP
+2026-04-22 02:10:16,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 64 in 60 seconds; High connection frequency baseline: 189,1.0,TCP
+2026-04-22 02:10:16,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 65 in 60 seconds; High connection frequency baseline: 190,1.0,TCP
+2026-04-22 02:10:16,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 77 in 60 seconds; High connection frequency baseline: 190,1.0,TCP
+2026-04-22 02:10:15,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 62 in 60 seconds; High connection frequency baseline: 187,1.0,TCP
+2026-04-22 02:10:15,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 73 in 60 seconds; High connection frequency baseline: 186,1.0,TCP
+2026-04-22 02:10:15,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 74 in 60 seconds; High connection frequency baseline: 187,1.0,TCP
+2026-04-22 02:10:15,python.exe,27292,103.102.166.224,80,25.0,SAFE,SAFE,Frequent connections: 75 in 60 seconds; High connection frequency baseline: 188,1.0,TCP
+2026-04-22 02:10:14,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 71 in 60 seconds; High connection frequency baseline: 184,1.0,TCP
+2026-04-22 02:10:14,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 58 in 60 seconds; High connection frequency baseline: 183,1.0,TCP
+2026-04-22 02:10:14,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 59 in 60 seconds; High connection frequency baseline: 184,1.0,TCP
+2026-04-22 02:10:14,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 60 in 60 seconds; High connection frequency baseline: 185,1.0,TCP
+2026-04-22 02:10:14,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 72 in 60 seconds; High connection frequency baseline: 185,1.0,TCP
+2026-04-22 02:10:14,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 61 in 60 seconds; High connection frequency baseline: 186,1.0,TCP
+2026-04-22 02:10:13,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 69 in 60 seconds; High connection frequency baseline: 182,1.0,TCP
+2026-04-22 02:10:13,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 70 in 60 seconds; High connection frequency baseline: 183,1.0,TCP
+2026-04-22 02:10:13,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 57 in 60 seconds; High connection frequency baseline: 182,1.0,TCP
+2026-04-22 02:10:12,python.exe,28692,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 68 in 60 seconds; High connection frequency baseline: 181,1.0,TCP
+2026-04-22 02:10:11,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 67 in 60 seconds; High connection frequency baseline: 180,1.0,TCP
+2026-04-22 02:10:11,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 57 in 60 seconds; High connection frequency baseline: 181,1.0,TCP
+2026-04-22 02:10:10,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 66 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 179,1.0,TCP
+2026-04-22 02:10:10,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 56 in 60 seconds; High connection frequency baseline: 180,1.0,TCP
+2026-04-22 02:10:09,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 56 in 60 seconds; High connection frequency baseline: 179,1.0,TCP
+2026-04-22 02:10:08,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 65 in 60 seconds; High connection frequency baseline: 178,1.0,TCP
+2026-04-22 02:10:06,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 55 in 60 seconds; High connection frequency baseline: 178,1.0,TCP
+2026-04-22 02:10:05,python.exe,27292,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 63 in 60 seconds; High connection frequency baseline: 176,1.0,TCP
+2026-04-22 02:10:05,language_server_windows_x64.exe,29652,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 33,1.0,TCP
+2026-04-22 02:10:05,python.exe,8084,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 64 in 60 seconds; High connection frequency baseline: 177,1.0,TCP
+2026-04-22 02:10:04,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 62 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 175,1.0,TCP
+2026-04-22 02:10:04,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 54 in 60 seconds; High connection frequency baseline: 177,1.0,TCP
+2026-04-22 02:10:03,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 61 in 60 seconds; High connection frequency baseline: 174,1.0,TCP
+2026-04-22 02:10:02,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 53 in 60 seconds; High connection frequency baseline: 176,1.0,TCP
+2026-04-22 02:10:01,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 60 in 60 seconds; High connection frequency baseline: 173,1.0,TCP
+2026-04-22 02:10:01,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 51 in 60 seconds; High connection frequency baseline: 174,1.0,TCP
+2026-04-22 02:10:01,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 52 in 60 seconds; High connection frequency baseline: 175,1.0,TCP
+2026-04-22 02:10:00,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 58 in 60 seconds; High connection frequency baseline: 171,1.0,TCP
+2026-04-22 02:10:00,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 50 in 60 seconds; High connection frequency baseline: 173,1.0,TCP
+2026-04-22 02:10:00,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 59 in 60 seconds; High connection frequency baseline: 172,1.0,TCP
+2026-04-22 02:09:59,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 49 in 60 seconds; High connection frequency baseline: 171,1.0,TCP
+2026-04-22 02:09:59,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 168,1.0,TCP
+2026-04-22 02:09:59,python.exe,27292,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 169,1.0,TCP
+2026-04-22 02:09:59,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 50 in 60 seconds; High connection frequency baseline: 172,1.0,TCP
+2026-04-22 02:09:59,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 170,1.0,TCP
+2026-04-22 02:09:58,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 166,1.0,TCP
+2026-04-22 02:09:58,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 169,1.0,TCP
+2026-04-22 02:09:58,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 170,1.0,TCP
+2026-04-22 02:09:58,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 167,1.0,TCP
+2026-04-22 02:09:57,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 50 in 60 seconds; High connection frequency baseline: 163,1.0,TCP
+2026-04-22 02:09:57,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 167,1.0,TCP
+2026-04-22 02:09:57,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 51 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 164,1.0,TCP
+2026-04-22 02:09:57,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 165,1.0,TCP
+2026-04-22 02:09:57,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 168,1.0,TCP
+2026-04-22 02:09:56,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 49 in 60 seconds; High connection frequency baseline: 162,1.0,TCP
+2026-04-22 02:09:56,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 165,1.0,TCP
+2026-04-22 02:09:56,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 166,1.0,TCP
+2026-04-22 02:09:55,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 46 in 60 seconds; High connection frequency baseline: 159,1.0,TCP
+2026-04-22 02:09:55,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 47 in 60 seconds; High connection frequency baseline: 160,1.0,TCP
+2026-04-22 02:09:55,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 48 in 60 seconds; High connection frequency baseline: 161,1.0,TCP
+2026-04-22 02:09:55,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 164,1.0,TCP
+2026-04-22 02:09:54,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 163,1.0,TCP
+2026-04-22 02:09:53,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 45 in 60 seconds; High connection frequency baseline: 158,1.0,TCP
+2026-04-22 02:09:51,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 44 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 157,1.0,TCP
+2026-04-22 02:09:51,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 162,1.0,TCP
+2026-04-22 02:09:50,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 43 in 60 seconds; High connection frequency baseline: 156,1.0,TCP
+2026-04-22 02:09:49,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 39 in 60 seconds; High connection frequency baseline: 161,1.0,TCP
+2026-04-22 02:09:48,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 42 in 60 seconds; High connection frequency baseline: 155,1.0,TCP
+2026-04-22 02:09:46,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 38 in 60 seconds; High connection frequency baseline: 160,1.0,TCP
+2026-04-22 02:09:45,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 41 in 60 seconds; High connection frequency baseline: 154,1.0,TCP
+2026-04-22 02:09:45,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 37 in 60 seconds; High connection frequency baseline: 159,1.0,TCP
+2026-04-22 02:09:44,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 35 in 60 seconds; High connection frequency baseline: 157,1.0,TCP
+2026-04-22 02:09:44,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 38 in 60 seconds; High connection frequency baseline: 151,1.0,TCP
+2026-04-22 02:09:44,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 36 in 60 seconds; High connection frequency baseline: 158,1.0,TCP
+2026-04-22 02:09:44,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 39 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 152,1.0,TCP
+2026-04-22 02:09:44,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 40 in 60 seconds; High connection frequency baseline: 153,1.0,TCP
+2026-04-22 02:09:43,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 33 in 60 seconds; High connection frequency baseline: 155,1.0,TCP
+2026-04-22 02:09:43,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 35 in 60 seconds; High connection frequency baseline: 148,1.0,TCP
+2026-04-22 02:09:43,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 36 in 60 seconds; High connection frequency baseline: 149,1.0,TCP
+2026-04-22 02:09:43,python.exe,27292,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 37 in 60 seconds; High connection frequency baseline: 150,1.0,TCP
+2026-04-22 02:09:43,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 34 in 60 seconds; High connection frequency baseline: 156,1.0,TCP
+2026-04-22 02:09:42,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 32 in 60 seconds; High connection frequency baseline: 154,1.0,TCP
+2026-04-22 02:09:42,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 34 in 60 seconds; High connection frequency baseline: 147,1.0,TCP
+2026-04-22 02:09:41,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 29 in 60 seconds; High connection frequency baseline: 151,1.0,TCP
+2026-04-22 02:09:41,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 32 in 60 seconds; High connection frequency baseline: 145,1.0,TCP
+2026-04-22 02:09:41,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 30 in 60 seconds; High connection frequency baseline: 152,1.0,TCP
+2026-04-22 02:09:41,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 33 in 60 seconds; High connection frequency baseline: 146,1.0,TCP
+2026-04-22 02:09:41,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 31 in 60 seconds; High connection frequency baseline: 153,1.0,TCP
+2026-04-22 02:09:40,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 28 in 60 seconds; High connection frequency baseline: 150,1.0,TCP
+2026-04-22 02:09:40,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 30 in 60 seconds; High connection frequency baseline: 143,1.0,TCP
+2026-04-22 02:09:40,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 31 in 60 seconds; High connection frequency baseline: 144,1.0,TCP
+2026-04-22 02:09:39,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 29 in 60 seconds; High connection frequency baseline: 142,1.0,TCP
+2026-04-22 02:09:39,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 27 in 60 seconds; High connection frequency baseline: 149,1.0,TCP
+2026-04-22 02:09:38,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 25 in 60 seconds; High connection frequency baseline: 138,1.0,TCP
+2026-04-22 02:09:38,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 26 in 60 seconds; High connection frequency baseline: 139,1.0,TCP
+2026-04-22 02:09:38,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 25 in 60 seconds; High connection frequency baseline: 147,1.0,TCP
+2026-04-22 02:09:38,python.exe,27292,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 27 in 60 seconds; High connection frequency baseline: 140,1.0,TCP
+2026-04-22 02:09:38,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 28 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 141,1.0,TCP
+2026-04-22 02:09:38,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 26 in 60 seconds; High connection frequency baseline: 148,1.0,TCP
+2026-04-22 02:09:37,python.exe,28692,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 24 in 60 seconds; High connection frequency baseline: 137,1.0,TCP
+2026-04-22 02:09:36,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 23 in 60 seconds; High connection frequency baseline: 145,1.0,TCP
+2026-04-22 02:09:36,System Idle Process,0,142.251.43.129,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 24 in 60 seconds; High connection frequency baseline: 146,1.0,TCP
+2026-04-22 02:09:35,msedge.exe,21652,34.8.7.18,443,5.0,SAFE,SAFE,Multiple connections: 9 in 60 seconds; High connection frequency baseline: 31,1.0,TCP
+2026-04-22 02:09:35,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 23 in 60 seconds; High connection frequency baseline: 136,1.0,TCP
+2026-04-22 02:09:33,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 22 in 60 seconds; High connection frequency baseline: 135,1.0,TCP
+2026-04-22 02:09:33,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 23 in 60 seconds; High connection frequency baseline: 144,1.0,TCP
+2026-04-22 02:09:32,System Idle Process,0,13.107.137.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 21 in 60 seconds; High connection frequency baseline: 142,1.0,TCP
+2026-04-22 02:09:32,System Idle Process,0,13.107.137.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 22 in 60 seconds; High connection frequency baseline: 143,1.0,TCP
+2026-04-22 02:09:31,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 20 in 60 seconds; High connection frequency baseline: 141,1.0,TCP
+2026-04-22 02:09:31,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 21 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 134,1.0,TCP
+2026-04-22 02:09:30,python.exe,8084,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 20 in 60 seconds; High connection frequency baseline: 133,1.0,TCP
+2026-04-22 02:09:28,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 19 in 60 seconds; High connection frequency baseline: 140,1.0,TCP
+2026-04-22 02:09:27,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 17 in 60 seconds; High connection frequency baseline: 138,1.0,TCP
+2026-04-22 02:09:27,python.exe,28692,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 17 in 60 seconds; High connection frequency baseline: 130,1.0,TCP
+2026-04-22 02:09:27,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 18 in 60 seconds; High connection frequency baseline: 139,1.0,TCP
+2026-04-22 02:09:27,python.exe,27292,20.207.73.82,80,25.0,SAFE,SAFE,Frequent connections: 18 in 60 seconds; High connection frequency baseline: 131,1.0,TCP
+2026-04-22 02:09:27,python.exe,8084,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 19 in 60 seconds; High connection frequency baseline: 132,1.0,TCP
+2026-04-22 02:09:26,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 15 in 60 seconds; High connection frequency baseline: 136,1.0,TCP
+2026-04-22 02:09:26,python.exe,28692,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 16 in 60 seconds; High connection frequency baseline: 129,1.0,TCP
+2026-04-22 02:09:26,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 16 in 60 seconds; High connection frequency baseline: 137,1.0,TCP
+2026-04-22 02:09:25,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 13 in 60 seconds; High connection frequency baseline: 134,1.0,TCP
+2026-04-22 02:09:25,python.exe,14572,93.184.216.34,8080,35.0,MEDIUM,MEDIUM,Frequent connections: 12 in 60 seconds; Unusual port: 8080; High connection frequency baseline: 125,1.0,TCP
+2026-04-22 02:09:25,python.exe,8084,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 13 in 60 seconds; High connection frequency baseline: 126,1.0,TCP
+2026-04-22 02:09:25,python.exe,28692,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 14 in 60 seconds; High connection frequency baseline: 127,1.0,TCP
+2026-04-22 02:09:25,python.exe,28692,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 15 in 60 seconds; High connection frequency baseline: 128,1.0,TCP
+2026-04-22 02:09:25,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 14 in 60 seconds; High connection frequency baseline: 135,1.0,TCP
+2026-04-22 02:09:24,python.exe,28692,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 11 in 60 seconds; High connection frequency baseline: 124,1.0,TCP
+2026-04-22 02:09:24,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 12 in 60 seconds; High connection frequency baseline: 133,1.0,TCP
+2026-04-22 02:09:23,System Idle Process,0,3.217.55.179,80,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; High connection frequency baseline: 130,1.0,TCP
+2026-04-22 02:09:23,msedge.exe,21652,40.79.173.41,443,5.0,SAFE,SAFE,Multiple connections: 7 in 60 seconds; High connection frequency baseline: 29,1.0,TCP
+2026-04-22 02:09:23,msedge.exe,21652,34.193.186.244,443,5.0,SAFE,SAFE,Multiple connections: 8 in 60 seconds; High connection frequency baseline: 30,1.0,TCP
+2026-04-22 02:09:23,System Idle Process,0,3.217.55.179,80,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; High connection frequency baseline: 131,1.0,TCP
+2026-04-22 02:09:23,python.exe,28692,3.217.55.179,80,10.0,SAFE,SAFE,Multiple connections: 10 in 60 seconds; High connection frequency baseline: 123,1.0,TCP
+2026-04-22 02:09:23,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; High connection frequency baseline: 132,1.0,TCP
+2026-04-22 02:09:22,msedge.exe,21652,3.229.36.203,443,0.0,SAFE,SAFE,High connection frequency baseline: 25,1.0,TCP
+2026-04-22 02:09:22,msedge.exe,21652,108.159.15.104,443,0.0,SAFE,SAFE,High connection frequency baseline: 26,1.0,TCP
+2026-04-22 02:09:22,python.exe,28692,3.217.55.179,80,10.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds; High connection frequency baseline: 119,1.0,TCP
+2026-04-22 02:09:22,System Idle Process,0,3.217.55.179,80,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; High connection frequency baseline: 129,1.0,TCP
+2026-04-22 02:09:22,msedge.exe,21652,32.194.208.1,443,0.0,SAFE,SAFE,High connection frequency baseline: 27,1.0,TCP
+2026-04-22 02:09:22,msedge.exe,21652,52.21.70.220,443,5.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds; High connection frequency baseline: 28,1.0,TCP
+2026-04-22 02:09:22,python.exe,8084,3.217.55.179,80,10.0,SAFE,SAFE,Multiple connections: 7 in 60 seconds; High connection frequency baseline: 120,1.0,TCP
+2026-04-22 02:09:22,python.exe,27292,3.217.55.179,80,10.0,SAFE,SAFE,Multiple connections: 8 in 60 seconds; High connection frequency baseline: 121,1.0,TCP
+2026-04-22 02:09:22,python.exe,28692,3.217.55.179,80,10.0,SAFE,SAFE,Multiple connections: 9 in 60 seconds; High connection frequency baseline: 122,1.0,TCP
+2026-04-22 02:09:21,msedge.exe,21652,184.84.233.235,443,0.0,SAFE,SAFE,High connection frequency baseline: 23,0.5,TCP
+2026-04-22 02:09:21,msedge.exe,21652,3.228.248.209,443,0.0,SAFE,SAFE,High connection frequency baseline: 24,0.5,TCP
+2026-04-22 02:09:21,System Idle Process,0,3.217.55.179,80,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 128,0.5,TCP
+2026-04-22 02:09:21,python.exe,28692,3.217.55.179,80,0.0,SAFE,SAFE,High connection frequency baseline: 118,0.5,TCP
+2026-04-22 02:09:20,python.exe,28692,3.217.55.179,80,0.0,SAFE,SAFE,High connection frequency baseline: 117,0.5,TCP
+2026-04-22 02:09:20,System Idle Process,0,3.217.55.179,80,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; High connection frequency baseline: 127,0.5,TCP
+2026-04-22 02:09:19,python.exe,8084,3.217.55.179,80,0.0,SAFE,SAFE,High connection frequency baseline: 116,1.0,TCP
+2026-04-22 02:09:18,python.exe,14572,93.184.216.34,8080,10.0,SAFE,SAFE,Unusual port: 8080; High connection frequency baseline: 115,1.0,TCP
+2026-04-22 02:09:18,System Idle Process,0,3.217.55.179,80,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 126,1.0,TCP
+2026-04-22 02:09:17,python.exe,8084,3.217.55.179,80,0.0,SAFE,SAFE,High connection frequency baseline: 114,1.0,TCP
+2026-04-22 02:09:14,OneDrive.Sync.Service.exe,29916,13.89.179.13,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:09:13,language_server_windows_x64.exe,29652,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 32,1.0,TCP
+2026-04-22 02:09:13,System Idle Process,0,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 125,1.0,TCP
+2026-04-22 02:09:10,System Idle Process,0,34.54.84.110,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 124,1.0,TCP
+2026-04-22 02:09:05,language_server_windows_x64.exe,29652,34.54.84.110,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 31,1.0,TCP
+2026-04-22 02:09:00,System Idle Process,0,142.251.43.129,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 123,0.5,TCP
+2026-04-22 02:08:43,language_server_windows_x64.exe,412,216.239.32.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 30,0.5,TCP
+2026-04-22 02:08:36,System Idle Process,0,216.239.32.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 122,1.0,TCP
+2026-04-22 02:08:31,Antigravity.exe,4576,216.239.32.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:08:29,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:08:13,System Idle Process,0,34.54.84.110,443,70.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; User is idle but process is active; High connection frequency baseline: 121,0.0,TCP
+2026-04-22 02:08:12,language_server_windows_x64.exe,29652,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; User is idle but process is active; High connection frequency baseline: 29,0.0,TCP
+2026-04-22 02:08:10,System Idle Process,0,34.54.84.110,443,70.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; User is idle but process is active; High connection frequency baseline: 120,0.0,TCP
+2026-04-22 02:08:08,System Idle Process,0,216.239.32.223,443,70.0,HIGH,HIGH,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; User is idle but process is active; High connection frequency baseline: 119,0.0,TCP
+2026-04-22 02:08:06,language_server_windows_x64.exe,29652,216.239.32.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 25,0.0,TCP
+2026-04-22 02:08:06,language_server_windows_x64.exe,29652,142.251.43.129,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 26,0.0,TCP
+2026-04-22 02:08:06,language_server_windows_x64.exe,29652,216.239.36.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; User is idle but process is active; High connection frequency baseline: 27,0.0,TCP
+2026-04-22 02:08:06,language_server_windows_x64.exe,29652,216.239.32.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; User is idle but process is active; High connection frequency baseline: 28,0.0,TCP
+2026-04-22 02:08:05,language_server_windows_x64.exe,29652,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 24,0.0,TCP
+2026-04-22 02:07:59,msedge.exe,21652,150.171.110.84,443,15.0,SAFE,SAFE,User is idle but process is active; High connection frequency baseline: 22,0.0,TCP
+2026-04-22 02:07:53,System Idle Process,0,20.60.225.65,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; High connection frequency baseline: 116,0.5,TCP
+2026-04-22 02:07:53,System Idle Process,0,57.150.129.65,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; High connection frequency baseline: 117,0.5,TCP
+2026-04-22 02:07:53,System Idle Process,0,20.135.6.7,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds; High connection frequency baseline: 118,0.5,TCP
+2026-04-22 02:07:37,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,0.5,TCP
+2026-04-22 02:07:35,System Idle Process,0,216.239.38.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; High connection frequency baseline: 114,0.5,TCP
+2026-04-22 02:07:35,System Idle Process,0,216.239.34.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds; High connection frequency baseline: 115,0.5,TCP
+2026-04-22 02:07:34,System Idle Process,0,192.178.211.95,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; High connection frequency baseline: 113,0.5,TCP
+2026-04-22 02:07:31,language_server_windows_x64.exe,412,142.251.43.129,443,25.0,SAFE,SAFE,Unknown process not in whitelist; High connection frequency baseline: 23,1.0,TCP
+2026-04-22 02:07:29,Antigravity.exe,4576,192.178.211.95,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:07:29,Antigravity.exe,4576,216.239.34.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:07:27,System Idle Process,0,216.239.34.223,443,35.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; High connection frequency baseline: 112,1.0,TCP
+2026-04-22 02:07:24,System Idle Process,0,142.251.43.129,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 111,0.0,TCP
+2026-04-22 02:07:22,language_server_windows_x64.exe,412,216.239.34.223,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 21,0.0,TCP
+2026-04-22 02:07:22,language_server_windows_x64.exe,412,216.239.34.223,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 22,0.0,TCP
+2026-04-22 02:07:20,Antigravity.exe,2696,13.89.179.8,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:07:13,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 110,0.0,TCP
+2026-04-22 02:07:12,language_server_windows_x64.exe,29652,34.54.84.110,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:07:10,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 109,0.0,TCP
+2026-04-22 02:07:05,language_server_windows_x64.exe,29652,34.54.84.110,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:07:03,System Idle Process,0,34.36.133.15,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 108,0.0,TCP
+2026-04-22 02:06:37,System Idle Process,0,13.107.137.11,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds; User is idle but process is active; High connection frequency baseline: 106,0.0,TCP
+2026-04-22 02:06:37,System Idle Process,0,104.208.16.88,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds; User is idle but process is active; High connection frequency baseline: 107,0.0,TCP
+2026-04-22 02:06:24,System Idle Process,0,216.239.38.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 105,0.0,TCP
+2026-04-22 02:06:18,OneDrive.exe,19120,57.150.129.65,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:06:17,svchost.exe,5052,104.208.16.89,443,0.0,SAFE,SAFE,User is idle but process is active,0.0,TCP
+2026-04-22 02:06:12,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 104,0.0,TCP
+2026-04-22 02:06:11,language_server_windows_x64.exe,29652,34.54.84.110,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:06:09,System Idle Process,0,34.54.84.110,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 103,0.0,TCP
+2026-04-22 02:06:05,language_server_windows_x64.exe,29652,34.54.84.110,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:06:01,System Idle Process,0,216.239.34.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds; User is idle but process is active; High connection frequency baseline: 102,0.0,TCP
+2026-04-22 02:05:59,System Idle Process,0,216.239.36.223,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active; High connection frequency baseline: 100,0.0,TCP
+2026-04-22 02:05:59,System Idle Process,0,216.239.34.223,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 101,0.0,TCP
+2026-04-22 02:05:54,language_server_windows_x64.exe,412,216.239.36.223,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:54,Antigravity.exe,4576,216.239.36.223,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:54,language_server_windows_x64.exe,412,142.251.43.129,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:54,language_server_windows_x64.exe,412,216.239.34.223,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:52,Antigravity.exe,4576,216.239.34.223,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:51,Antigravity.exe,4576,216.239.34.223,443,40.0,MEDIUM,MEDIUM,Unknown process not in whitelist; User is idle but process is active,0.0,TCP
+2026-04-22 02:05:50,System Idle Process,0,34.8.7.18,443,55.0,HIGH,HIGH,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds; User is idle but process is active; High connection frequency baseline: 99,0.0,TCP
+2026-04-22 02:05:46,OneDrive.exe,19120,20.60.225.65,443,20.0,SAFE,SAFE,Unknown process not in whitelist,0.5,TCP
+2026-04-22 02:05:45,OneDrive.exe,19120,20.135.6.7,443,20.0,SAFE,SAFE,Unknown process not in whitelist,0.5,TCP
+2026-04-22 02:05:32,ollama app.exe,15452,34.36.133.15,443,20.0,SAFE,SAFE,Unknown process not in whitelist,0.5,TCP
+2026-04-22 02:05:31,svchost.exe,5052,52.168.117.175,443,0.0,SAFE,SAFE,,0.5,TCP
+2026-04-22 02:05:19,System Idle Process,0,13.107.137.11,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 31 in 60 seconds; High connection frequency baseline: 98,1.0,TCP
+2026-04-22 02:05:11,language_server_windows_x64.exe,29652,34.54.84.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:05:11,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 32 in 60 seconds; High connection frequency baseline: 97,1.0,TCP
+2026-04-22 02:05:09,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 32 in 60 seconds; High connection frequency baseline: 96,1.0,TCP
+2026-04-22 02:05:05,language_server_windows_x64.exe,29652,34.54.84.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:04:55,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 113,1.0,TCP
+2026-04-22 02:04:52,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 49 in 60 seconds; High connection frequency baseline: 95,1.0,TCP
+2026-04-22 02:04:51,python.exe,26496,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 112,1.0,TCP
+2026-04-22 02:04:51,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 94,1.0,TCP
+2026-04-22 02:04:50,System Idle Process,0,57.144.213.32,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 92,1.0,TCP
+2026-04-22 02:04:50,python.exe,21712,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 111,1.0,TCP
+2026-04-22 02:04:50,System Idle Process,0,3.217.55.179,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 93,1.0,TCP
+2026-04-22 02:04:49,msedge.exe,21652,34.8.7.18,443,0.0,SAFE,SAFE,High connection frequency baseline: 21,1.0,TCP
+2026-04-22 02:04:49,System Idle Process,0,3.234.199.80,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 91,1.0,TCP
+2026-04-22 02:04:49,python.exe,21712,3.217.55.179,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 110,1.0,TCP
+2026-04-22 02:04:48,System Idle Process,0,40.126.18.33,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 88,1.0,TCP
+2026-04-22 02:04:48,python.exe,21712,3.234.199.80,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 109,1.0,TCP
+2026-04-22 02:04:48,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 89,1.0,TCP
+2026-04-22 02:04:48,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 90,1.0,TCP
+2026-04-22 02:04:47,FileSyncHelper.exe,29576,104.208.16.88,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:04:47,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 106,1.0,TCP
+2026-04-22 02:04:47,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 107,1.0,TCP
+2026-04-22 02:04:47,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 87,1.0,TCP
+2026-04-22 02:04:47,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 108,1.0,TCP
+2026-04-22 02:04:46,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 104,1.0,TCP
+2026-04-22 02:04:46,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 105,1.0,TCP
+2026-04-22 02:04:46,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 86,1.0,TCP
+2026-04-22 02:04:45,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 83,1.0,TCP
+2026-04-22 02:04:45,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 103,1.0,TCP
+2026-04-22 02:04:45,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 84,1.0,TCP
+2026-04-22 02:04:45,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 85,1.0,TCP
+2026-04-22 02:04:44,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 50 in 60 seconds; High connection frequency baseline: 101,1.0,TCP
+2026-04-22 02:04:44,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 102,1.0,TCP
+2026-04-22 02:04:43,svchost.exe,5052,13.89.178.27,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:04:41,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 82,1.0,TCP
+2026-04-22 02:04:41,python.exe,6932,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 100,1.0,TCP
+2026-04-22 02:04:40,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 98,1.0,TCP
+2026-04-22 02:04:40,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 99,1.0,TCP
+2026-04-22 02:04:38,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 81,1.0,TCP
+2026-04-22 02:04:37,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 97,1.0,TCP
+2026-04-22 02:04:34,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 80,1.0,TCP
+2026-04-22 02:04:33,python.exe,6932,35.190.14.201,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 93,1.0,TCP
+2026-04-22 02:04:33,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 94,1.0,TCP
+2026-04-22 02:04:33,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 95,1.0,TCP
+2026-04-22 02:04:33,python.exe,6932,151.101.131.19,443,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 96,1.0,TCP
+2026-04-22 02:04:30,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 79,1.0,TCP
+2026-04-22 02:04:29,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 92,1.0,TCP
+2026-04-22 02:04:29,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 78,1.0,TCP
+2026-04-22 02:04:28,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 77,1.0,TCP
+2026-04-22 02:04:28,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 91,1.0,TCP
+2026-04-22 02:04:27,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 76,1.0,TCP
+2026-04-22 02:04:26,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 74,1.0,TCP
+2026-04-22 02:04:26,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 87,1.0,TCP
+2026-04-22 02:04:26,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 88,1.0,TCP
+2026-04-22 02:04:26,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 89,1.0,TCP
+2026-04-22 02:04:26,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 75,1.0,TCP
+2026-04-22 02:04:26,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 90,1.0,TCP
+2026-04-22 02:04:25,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 86,1.0,TCP
+2026-04-22 02:04:25,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 73,1.0,TCP
+2026-04-22 02:04:24,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 72,1.0,TCP
+2026-04-22 02:04:24,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 84,1.0,TCP
+2026-04-22 02:04:24,python.exe,6932,103.102.166.224,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 85,1.0,TCP
+2026-04-22 02:04:23,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 70,1.0,TCP
+2026-04-22 02:04:23,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 71,1.0,TCP
+2026-04-22 02:04:23,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 83,1.0,TCP
+2026-04-22 02:04:22,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 81,1.0,TCP
+2026-04-22 02:04:22,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 50 in 60 seconds; High connection frequency baseline: 82,1.0,TCP
+2026-04-22 02:04:22,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 69,1.0,TCP
+2026-04-22 02:04:21,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 80,1.0,TCP
+2026-04-22 02:04:20,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 68,1.0,TCP
+2026-04-22 02:04:19,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 78,1.0,TCP
+2026-04-22 02:04:19,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 79,1.0,TCP
+2026-04-22 02:04:16,python.exe,6932,20.207.73.82,80,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 77,1.0,TCP
+2026-04-22 02:04:16,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 67,1.0,TCP
+2026-04-22 02:04:15,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 58 in 60 seconds; High connection frequency baseline: 76,1.0,TCP
+2026-04-22 02:04:12,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 74,1.0,TCP
+2026-04-22 02:04:12,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 49 in 60 seconds; High connection frequency baseline: 66,1.0,TCP
+2026-04-22 02:04:12,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 75,1.0,TCP
+2026-04-22 02:04:10,language_server_windows_x64.exe,29652,34.54.84.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:04:10,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 65,1.0,TCP
+2026-04-22 02:04:09,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 64,1.0,TCP
+2026-04-22 02:04:08,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 58 in 60 seconds; High connection frequency baseline: 73,1.0,TCP
+2026-04-22 02:04:08,System Idle Process,0,34.54.84.110,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 63,1.0,TCP
+2026-04-22 02:04:07,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 62,1.0,TCP
+2026-04-22 02:04:07,python.exe,6932,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 72,1.0,TCP
+2026-04-22 02:04:05,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 59,1.0,TCP
+2026-04-22 02:04:05,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 69,1.0,TCP
+2026-04-22 02:04:05,language_server_windows_x64.exe,29652,34.54.84.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:04:05,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 47 in 60 seconds; High connection frequency baseline: 60,1.0,TCP
+2026-04-22 02:04:05,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 48 in 60 seconds; High connection frequency baseline: 61,1.0,TCP
+2026-04-22 02:04:05,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 70,1.0,TCP
+2026-04-22 02:04:05,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 71,1.0,TCP
+2026-04-22 02:04:04,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 58,1.0,TCP
+2026-04-22 02:04:04,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 67,1.0,TCP
+2026-04-22 02:04:04,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 68,1.0,TCP
+2026-04-22 02:04:03,System Idle Process,0,104.18.157.37,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 53,1.0,TCP
+2026-04-22 02:04:03,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 66,1.0,TCP
+2026-04-22 02:04:03,System Idle Process,0,104.18.157.37,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 54,1.0,TCP
+2026-04-22 02:04:03,System Idle Process,0,104.18.157.37,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 55,1.0,TCP
+2026-04-22 02:04:03,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 56,1.0,TCP
+2026-04-22 02:04:03,System Idle Process,0,104.18.157.37,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 57,1.0,TCP
+2026-04-22 02:04:02,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 64,1.0,TCP
+2026-04-22 02:04:02,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 51,1.0,TCP
+2026-04-22 02:04:02,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 65,1.0,TCP
+2026-04-22 02:04:02,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 52,1.0,TCP
+2026-04-22 02:04:01,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 49,1.0,TCP
+2026-04-22 02:04:01,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 62,1.0,TCP
+2026-04-22 02:04:01,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 63,1.0,TCP
+2026-04-22 02:04:01,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 50,1.0,TCP
+2026-04-22 02:04:00,python.exe,21712,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 61,1.0,TCP
+2026-04-22 02:03:59,python.exe,6932,35.190.14.201,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 60,1.0,TCP
+2026-04-22 02:03:58,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 48,1.0,TCP
+2026-04-22 02:03:58,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 59,1.0,TCP
+2026-04-22 02:03:57,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 58,1.0,TCP
+2026-04-22 02:03:54,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 57 in 60 seconds; High connection frequency baseline: 57,1.0,TCP
+2026-04-22 02:03:54,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 47,1.0,TCP
+2026-04-22 02:03:51,System Idle Process,0,3.228.76.52,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 46 in 60 seconds; High connection frequency baseline: 46,1.0,TCP
+2026-04-22 02:03:51,python.exe,6932,103.102.166.224,443,25.0,SAFE,SAFE,Frequent connections: 55 in 60 seconds; High connection frequency baseline: 55,1.0,TCP
+2026-04-22 02:03:51,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 56 in 60 seconds; High connection frequency baseline: 56,1.0,TCP
+2026-04-22 02:03:50,System Idle Process,0,34.8.7.18,443,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 45 in 60 seconds; High connection frequency baseline: 45,1.0,TCP
+2026-04-22 02:03:50,python.exe,26496,3.228.76.52,80,25.0,SAFE,SAFE,Frequent connections: 54 in 60 seconds; High connection frequency baseline: 54,1.0,TCP
+2026-04-22 02:03:48,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 44 in 60 seconds; High connection frequency baseline: 44,1.0,TCP
+2026-04-22 02:03:47,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 53 in 60 seconds; High connection frequency baseline: 53,1.0,TCP
+2026-04-22 02:03:45,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 52 in 60 seconds; High connection frequency baseline: 52,1.0,TCP
+2026-04-22 02:03:45,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 42 in 60 seconds; High connection frequency baseline: 42,1.0,TCP
+2026-04-22 02:03:45,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 43 in 60 seconds; High connection frequency baseline: 43,1.0,TCP
+2026-04-22 02:03:44,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 40 in 60 seconds; High connection frequency baseline: 40,1.0,TCP
+2026-04-22 02:03:44,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 50 in 60 seconds; High connection frequency baseline: 50,1.0,TCP
+2026-04-22 02:03:44,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 51 in 60 seconds; High connection frequency baseline: 51,1.0,TCP
+2026-04-22 02:03:44,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 41 in 60 seconds; High connection frequency baseline: 41,1.0,TCP
+2026-04-22 02:03:43,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 48 in 60 seconds; High connection frequency baseline: 48,1.0,TCP
+2026-04-22 02:03:43,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 49 in 60 seconds; High connection frequency baseline: 49,1.0,TCP
+2026-04-22 02:03:43,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 39 in 60 seconds; High connection frequency baseline: 39,1.0,TCP
+2026-04-22 02:03:42,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 37 in 60 seconds; High connection frequency baseline: 37,1.0,TCP
+2026-04-22 02:03:42,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 46 in 60 seconds; High connection frequency baseline: 46,1.0,TCP
+2026-04-22 02:03:42,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 47 in 60 seconds; High connection frequency baseline: 47,1.0,TCP
+2026-04-22 02:03:42,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 38 in 60 seconds; High connection frequency baseline: 38,1.0,TCP
+2026-04-22 02:03:41,System Idle Process,0,3.220.42.21,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 35 in 60 seconds; High connection frequency baseline: 35,1.0,TCP
+2026-04-22 02:03:41,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 45 in 60 seconds; High connection frequency baseline: 45,1.0,TCP
+2026-04-22 02:03:41,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 36 in 60 seconds; High connection frequency baseline: 36,1.0,TCP
+2026-04-22 02:03:40,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 43 in 60 seconds; High connection frequency baseline: 43,1.0,TCP
+2026-04-22 02:03:40,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 34 in 60 seconds; High connection frequency baseline: 34,1.0,TCP
+2026-04-22 02:03:40,python.exe,21712,3.220.42.21,80,25.0,SAFE,SAFE,Frequent connections: 44 in 60 seconds; High connection frequency baseline: 44,1.0,TCP
+2026-04-22 02:03:39,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 42 in 60 seconds; High connection frequency baseline: 42,1.0,TCP
+2026-04-22 02:03:37,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 41 in 60 seconds; High connection frequency baseline: 41,1.0,TCP
+2026-04-22 02:03:37,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 33 in 60 seconds; High connection frequency baseline: 33,1.0,TCP
+2026-04-22 02:03:36,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 40 in 60 seconds; High connection frequency baseline: 40,1.0,TCP
+2026-04-22 02:03:34,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 32 in 60 seconds; High connection frequency baseline: 32,1.0,TCP
+2026-04-22 02:03:34,python.exe,6932,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 39 in 60 seconds; High connection frequency baseline: 39,1.0,TCP
+2026-04-22 02:03:33,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 38 in 60 seconds; High connection frequency baseline: 38,1.0,TCP
+2026-04-22 02:03:30,msedge.exe,21652,78.47.159.66,443,15.0,SAFE,SAFE,Frequent connections: 20 in 60 seconds,1.0,TCP
+2026-04-22 02:03:30,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 37 in 60 seconds; High connection frequency baseline: 37,1.0,TCP
+2026-04-22 02:03:30,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 31 in 60 seconds; High connection frequency baseline: 31,1.0,TCP
+2026-04-22 02:03:29,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 36 in 60 seconds; High connection frequency baseline: 36,1.0,TCP
+2026-04-22 02:03:27,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 30 in 60 seconds; High connection frequency baseline: 30,1.0,TCP
+2026-04-22 02:03:26,python.exe,6932,35.190.14.201,443,25.0,SAFE,SAFE,Frequent connections: 34 in 60 seconds; High connection frequency baseline: 34,1.0,TCP
+2026-04-22 02:03:26,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 35 in 60 seconds; High connection frequency baseline: 35,1.0,TCP
+2026-04-22 02:03:25,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 29 in 60 seconds; High connection frequency baseline: 29,1.0,TCP
+2026-04-22 02:03:24,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 28 in 60 seconds; High connection frequency baseline: 28,1.0,TCP
+2026-04-22 02:03:24,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 33 in 60 seconds; High connection frequency baseline: 33,1.0,TCP
+2026-04-22 02:03:23,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 26 in 60 seconds; High connection frequency baseline: 26,1.0,TCP
+2026-04-22 02:03:23,python.exe,7112,93.184.216.34,80,25.0,SAFE,SAFE,Frequent connections: 31 in 60 seconds; High connection frequency baseline: 31,1.0,TCP
+2026-04-22 02:03:23,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 32 in 60 seconds; High connection frequency baseline: 32,1.0,TCP
+2026-04-22 02:03:23,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 27 in 60 seconds; High connection frequency baseline: 27,1.0,TCP
+2026-04-22 02:03:22,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 28 in 60 seconds; High connection frequency baseline: 28,1.0,TCP
+2026-04-22 02:03:22,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 24 in 60 seconds; High connection frequency baseline: 24,1.0,TCP
+2026-04-22 02:03:22,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 29 in 60 seconds; High connection frequency baseline: 29,1.0,TCP
+2026-04-22 02:03:22,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 25 in 60 seconds; High connection frequency baseline: 25,1.0,TCP
+2026-04-22 02:03:22,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 30 in 60 seconds; High connection frequency baseline: 30,1.0,TCP
+2026-04-22 02:03:21,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 23 in 60 seconds; High connection frequency baseline: 23,1.0,TCP
+2026-04-22 02:03:21,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 27 in 60 seconds; High connection frequency baseline: 27,1.0,TCP
+2026-04-22 02:03:20,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 21 in 60 seconds; High connection frequency baseline: 21,1.0,TCP
+2026-04-22 02:03:20,System Idle Process,0,18.235.15.99,80,50.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 22 in 60 seconds; High connection frequency baseline: 22,1.0,TCP
+2026-04-22 02:03:20,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 26 in 60 seconds; High connection frequency baseline: 26,1.0,TCP
+2026-04-22 02:03:19,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 23 in 60 seconds; High connection frequency baseline: 23,1.0,TCP
+2026-04-22 02:03:19,python.exe,21712,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 24 in 60 seconds; High connection frequency baseline: 24,1.0,TCP
+2026-04-22 02:03:19,python.exe,26496,18.235.15.99,80,25.0,SAFE,SAFE,Frequent connections: 25 in 60 seconds; High connection frequency baseline: 25,1.0,TCP
+2026-04-22 02:03:19,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 20 in 60 seconds,1.0,TCP
+2026-04-22 02:03:17,python.exe,6932,103.102.166.224,80,25.0,SAFE,SAFE,Frequent connections: 21 in 60 seconds; High connection frequency baseline: 21,1.0,TCP
+2026-04-22 02:03:17,python.exe,6932,103.102.166.224,443,25.0,SAFE,SAFE,Frequent connections: 22 in 60 seconds; High connection frequency baseline: 22,1.0,TCP
+2026-04-22 02:03:16,python.exe,26496,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 19 in 60 seconds,1.0,TCP
+2026-04-22 02:03:16,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 19 in 60 seconds,1.0,TCP
+2026-04-22 02:03:16,python.exe,7112,93.184.216.34,80,20.0,SAFE,SAFE,Frequent connections: 20 in 60 seconds,1.0,TCP
+2026-04-22 02:03:13,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 18 in 60 seconds,1.0,TCP
+2026-04-22 02:03:12,python.exe,26496,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 18 in 60 seconds,1.0,TCP
+2026-04-22 02:03:10,language_server_windows_x64.exe,29652,34.54.84.110,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds,1.0,TCP
+2026-04-22 02:03:10,System Idle Process,0,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 17 in 60 seconds,1.0,TCP
+2026-04-22 02:03:09,python.exe,26496,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 16 in 60 seconds,1.0,TCP
+2026-04-22 02:03:09,python.exe,7112,93.184.216.34,80,20.0,SAFE,SAFE,Frequent connections: 17 in 60 seconds,1.0,TCP
+2026-04-22 02:03:09,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 16 in 60 seconds,1.0,TCP
+2026-04-22 02:03:08,System Idle Process,0,34.54.84.110,443,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 15 in 60 seconds,1.0,TCP
+2026-04-22 02:03:06,msedge.exe,21652,20.44.10.123,443,15.0,SAFE,SAFE,Frequent connections: 19 in 60 seconds,1.0,TCP
+2026-04-22 02:03:06,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 14 in 60 seconds,1.0,TCP
+2026-04-22 02:03:05,msedge.exe,21652,20.44.10.123,443,15.0,SAFE,SAFE,Frequent connections: 18 in 60 seconds,1.0,TCP
+2026-04-22 02:03:05,python.exe,26496,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 15 in 60 seconds,1.0,TCP
+2026-04-22 02:03:05,language_server_windows_x64.exe,29652,34.54.84.110,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds,1.0,TCP
+2026-04-22 02:03:04,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 13 in 60 seconds,1.0,TCP
+2026-04-22 02:03:04,msedge.exe,21652,20.190.174.43,443,15.0,SAFE,SAFE,Frequent connections: 17 in 60 seconds,1.0,TCP
+2026-04-22 02:03:03,python.exe,21712,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 14 in 60 seconds,1.0,TCP
+2026-04-22 02:03:03,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 12 in 60 seconds,1.0,TCP
+2026-04-22 02:03:03,msedge.exe,21652,150.171.73.13,443,15.0,SAFE,SAFE,Frequent connections: 16 in 60 seconds,1.0,TCP
+2026-04-22 02:03:02,python.exe,26496,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 11 in 60 seconds,0.5,TCP
+2026-04-22 02:03:02,System Idle Process,0,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 10 in 60 seconds,0.5,TCP
+2026-04-22 02:03:02,python.exe,21712,18.235.15.99,80,20.0,SAFE,SAFE,Frequent connections: 12 in 60 seconds,0.5,TCP
+2026-04-22 02:03:02,System Idle Process,0,18.235.15.99,80,45.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Frequent connections: 11 in 60 seconds,0.5,TCP
+2026-04-22 02:03:02,python.exe,7112,93.184.216.34,80,20.0,SAFE,SAFE,Frequent connections: 13 in 60 seconds,0.5,TCP
+2026-04-22 02:03:01,System Idle Process,0,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds,0.5,TCP
+2026-04-22 02:03:01,python.exe,21712,18.235.15.99,80,5.0,SAFE,SAFE,Multiple connections: 10 in 60 seconds,0.5,TCP
+2026-04-22 02:03:00,python.exe,21712,18.235.15.99,80,5.0,SAFE,SAFE,Multiple connections: 7 in 60 seconds,0.5,TCP
+2026-04-22 02:03:00,System Idle Process,0,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds,0.5,TCP
+2026-04-22 02:03:00,System Idle Process,0,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds,0.5,TCP
+2026-04-22 02:03:00,python.exe,21712,18.235.15.99,80,5.0,SAFE,SAFE,Multiple connections: 8 in 60 seconds,0.5,TCP
+2026-04-22 02:03:00,python.exe,6932,18.235.15.99,80,5.0,SAFE,SAFE,Multiple connections: 9 in 60 seconds,0.5,TCP
+2026-04-22 02:02:59,System Idle Process,0,18.235.15.99,80,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:59,msedge.exe,21652,34.238.111.184,443,15.0,SAFE,SAFE,Frequent connections: 13 in 60 seconds,1.0,TCP
+2026-04-22 02:02:59,python.exe,21712,18.235.15.99,80,5.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds,1.0,TCP
+2026-04-22 02:02:59,svchost.exe,16124,40.126.18.33,443,0.0,SAFE,SAFE,,0.5,TCP
+2026-04-22 02:02:59,msedge.exe,21652,35.237.69.59,443,15.0,SAFE,SAFE,Frequent connections: 14 in 60 seconds,0.5,TCP
+2026-04-22 02:02:59,System Idle Process,0,18.235.15.99,80,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds,0.5,TCP
+2026-04-22 02:02:59,msedge.exe,21652,150.171.28.11,443,15.0,SAFE,SAFE,Frequent connections: 15 in 60 seconds,0.5,TCP
+2026-04-22 02:02:58,python.exe,21712,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:58,python.exe,26496,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:58,msedge.exe,21652,104.18.31.173,443,15.0,SAFE,SAFE,Frequent connections: 11 in 60 seconds,1.0,TCP
+2026-04-22 02:02:58,python.exe,21712,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:58,System Idle Process,0,18.235.15.99,80,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:58,msedge.exe,21652,184.84.233.235,443,15.0,SAFE,SAFE,Frequent connections: 12 in 60 seconds,1.0,TCP
+2026-04-22 02:02:56,System Idle Process,0,18.235.15.99,80,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:55,python.exe,26496,18.235.15.99,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:55,python.exe,7112,93.184.216.34,80,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,language_server_windows_x64.exe,412,34.54.84.110,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,language_server_windows_x64.exe,29652,216.239.38.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,Antigravity.exe,2696,151.101.193.242,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,language_server_windows_x64.exe,412,216.239.38.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,svchost.exe,5472,20.59.87.227,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,54.245.96.52,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,52.104.173.39,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,34.8.7.18,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,40.104.122.194,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,107.23.108.226,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 6 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,32.192.0.180,443,0.0,SAFE,SAFE,,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,13.107.137.11,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 7 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,108.159.15.29,443,0.0,SAFE,SAFE,Multiple connections: 6 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,104.18.36.252,443,0.0,SAFE,SAFE,Multiple connections: 7 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,System Idle Process,0,216.239.34.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,Antigravity.exe,2696,52.168.117.175,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,language_server_windows_x64.exe,29652,216.239.38.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,52.182.141.63,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 8 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,msedge.exe,21652,3.228.248.209,443,0.0,SAFE,SAFE,Multiple connections: 8 in 60 seconds,1.0,TCP
+2026-04-22 02:02:52,language_server_windows_x64.exe,412,216.239.32.223,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,System Idle Process,0,142.251.43.129,443,20.0,SAFE,SAFE,Unknown process not in whitelist,1.0,TCP
+2026-04-22 02:02:52,OneDrive.exe,19120,20.59.87.227,443,30.0,MEDIUM,MEDIUM,Unknown process not in whitelist; Multiple connections: 9 in 60 seconds,1.0,TCP
