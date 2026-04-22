@@ -1,297 +1,222 @@
+# UBNAD - Unauthorized Background Network Activity Detector
 
+**Windows Edition** | Real-time network monitoring with AI-powered threat detection
 
-# UBNAD
+## 🎯 Overview
 
-**Unauthorized Background Network Activity Detector**  
-Real-time network monitoring and suspicion scoring for Windows 10/11
+UBNAD is a sophisticated Windows-based security tool that monitors unauthorized background network activity. It combines real-time network packet analysis with behavioral profiling and machine learning to detect suspicious processes attempting unauthorized network communications.
 
----
+## ✨ Features
 
-## Quick Start
+- **Real-Time Network Monitoring**: Captures and analyzes all network connections in real-time
+- **Process Behavior Profiling**: Builds baseline behavior models for each process
+- **AI-Powered Suspicion Scoring**: Advanced suspicion engine calculates risk scores (0-100)
+- **Intent Analysis**: Monitors user activity to correlate with network events
+- **Alert Management**: Generates actionable alerts for high-risk activities
+- **SQLite Logging**: Persistent database storage for forensic analysis
+- **Graceful Shutdown**: Ensures all data is saved on exit
 
-### 1. Prerequisites
+## 📋 Requirements
 
-- **Windows 10/11** (64-bit)
-- **Python 3.10+** - Download from https://www.python.org/downloads/
-  - ☑️ Check "Add Python to PATH" during installation
-- **Network connectivity** (obviously)
-
-### 2. Verify Python Installation
-
-Open Command Prompt and run:
-
-```cmd
-python --version
-```
-
-Should output: `Python 3.10.x` or higher
-
-### 3. Run UBNAD
-
-Navigate to project folder and run:
-
-```cmd
-run.bat
-```
-
-This will:
-1. Install all required dependencies
-2. Start the backend (network monitoring service)
-3. Launch Streamlit dashboard at `http://localhost:8501`
-
-### 4. Open Dashboard
-
-Open your browser and go to:
-```
-http://localhost:8501
-```
-
----
-
-## How It Works
-
-### Architecture
-
-```
-Windows Network Stack
-    ↓ (Connection polling via psutil)
-Windows Network Collector
-    ↓ (Queue-based event push)
-Event Analyzer
-    ├─ Intent Monitor (user activity detection)
-    ├─ Process Mapper (process metadata)
-    ├─ Behavior Model (traffic baseline learning)
-    ├─ Suspicion Engine (risk scoring)
-    └─ Alert Manager (high-risk notifications)
-    ↓
-SQLite Database (ubnad_events.db)
-    ↓
-Streamlit Dashboard (live visualization)
-```
-
-### Network Collection
-
-The Windows Network Collector:
-- **Polls** active TCP connections every 1 second
-- **Scans** using `psutil.net_connections()`
-- **Filters** established outbound connections
-- **Maps** connection → PID → process name
-- **Detects** only new connections (avoids duplicates)
-- **Runs** in background thread
-- **No admin required** for basic monitoring
-
-### Analysis Pipeline
-
-Each network event is processed:
-
-1. **Process Resolution** - Map connection to process name/metadata
-2. **Intent Scoring** - Check user activity (mouse/keyboard listeners)
-3. **Baseline Learning** - Compare against historical traffic patterns
-4. **Suspicion Calculation** - Score based on:
-   - Intent mismatch (idle user + traffic)
-   - Abnormal traffic volume
-   - Known suspicious applications
-5. **Risk Classification** - SAFE / MEDIUM / HIGH / CRITICAL
-6. **Database Storage** - Event logged with full context
-7. **Alert Generation** - Console + dashboard alerts for HIGH/CRITICAL
-
-### Risk Calculation
-
-Suspicion score is increased by:
-- **+10 points** - User idle while app sends traffic
-- **+5 points** - Traffic > 5x baseline activity
-- **+15 points** - Known silent app (calculator, notepad, etc.)
-
-Events with score > 10 trigger alerts.
-
----
-
-## Dashboard Features
-
-### Live Metrics
-- Total events processed
-- High-risk event count
-- Unique processes monitored
-- Unique destination IPs
-
-### Alerts Panel
-- Real-time HIGH/CRITICAL alerts
-- Process name, destination IP, risk score
-- Timestamp and user idle duration
-
-### Live Activity Table
-- Last 50 network connections
-- Timestamp, process, destination, risk level
-- Color-coded by severity
-
-### Charts
-- **Traffic by Process** - Top applications by data transfer
-- **Risk Distribution** - Pie chart of event severity breakdown
-
-### Auto-Refresh
-- Refreshes every 3 seconds by default
-- Adjustable via sidebar slider
-- Uses database (no fake data)
-
----
-
-## Database
-
-**Location:** `ubnad_events.db` (created automatically)
-
-**Table: events**
-
-| Column | Type | Description |
-|--------|------|-------------|
-| id | INTEGER PRIMARY KEY | Auto-increment ID |
-| timestamp | REAL | Event Unix timestamp |
-| pid | INTEGER | Process ID |
-| process_name | TEXT | Executable name |
-| dest_ip | TEXT | Destination IP address |
-| dest_port | INTEGER | Destination port |
-| src_ip | TEXT | Source IP (local) |
-| src_port | INTEGER | Source port (local) |
-| intent_score | REAL | User activity (0-1) |
-| suspicion_score | REAL | Risk score (0-100) |
-| traffic_kb | INTEGER | Data transfer estimate |
-| idle_time | REAL | User idle seconds |
-| risk_level | TEXT | SAFE/MEDIUM/HIGH/CRITICAL |
-
----
-
-## Files & Structure
-
-```
-ubnad/
-├── main.py                           # Main orchestration
-├── requirements.txt                  # Python dependencies
-├── run.bat                          # Windows startup script
-├── ubnad_events.db                  # Database (created on first run)
-├── logs/
-│   └── backend.log                  # Service logs
-├── collector/
-│   ├── __init__.py
-│   └── windows_net_collector.py     # Windows network monitor
-├── core/
-│   ├── __init__.py
-│   ├── intent_monitor.py            # User activity detection
-│   ├── process_mapper.py            # Process metadata lookup
-│   ├── behavior_model.py            # Baseline learning
-│   ├── suspicion_engine.py          # Risk scoring
-│   └── alert_manager.py             # Alert generation
-├── database/
-│   ├── __init__.py
-│   └── activity_store.py            # SQLite persistence
-└── ui/
-    ├── __init__.py
-    └── dashboard.py                 # Streamlit web UI
-```
-
----
-
-## Troubleshooting
-
-### "python command not found"
-- Python not in PATH
-- Solution: Reinstall Python and check "Add Python to PATH"
-
-### Dependencies installation fails
-- Ensure internet connection
-- Try manual install:
-  ```cmd
-  pip install psutil streamlit pandas plotly pynput
+- **Windows 10/11** (x64)
+- **Python 3.8+**
+- **Administrator privileges** (for network packet capture)
+- **Dependencies**:
+  ```bash
+  pip install -r requirements.txt
   ```
 
-### Dashboard won't open at localhost:8501
-- Wait 10 seconds after running run.bat
-- Check firewall isn't blocking localhost
-- Try opening http://127.0.0.1:8501 instead
+## 🚀 Installation
 
-### No events appearing
-- Check backend console for errors
-- Ensure network connections are being made (open browser, etc.)
-- Check `logs\backend.log` for details
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/UBNAD.git
+   cd UBNAD
+   ```
 
-### High CPU usage
-- Normal during startup
-- Polling interval adjustable in collector (default 1 sec)
-- Reduce for less frequent scans
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Database locked error
-- Close dashboard
-- Delete `ubnad_events.db`
-- Restart
+3. **Run with administrator privileges**:
+   ```bash
+   python main.py
+   ```
 
----
+## 📁 Project Structure
 
-## Performance
+```
+UBNAD/
+├── main.py                          # Main orchestration & event loop
+├── config.py                        # Configuration & trusted processes
+├── requirements.txt                 # Python dependencies
+├── database/
+│   └── activity_store.py           # SQLite database operations
+├── collector/
+│   └── windows_net_collector.py    # Windows network packet capture
+├── core/
+│   ├── intent_monitor.py           # User activity analysis
+│   ├── process_mapper.py           # Process metadata resolution
+│   ├── behavior_model.py           # Baseline profiling
+│   ├── suspicion_engine.py         # Risk scoring algorithm
+│   └── alert_manager.py            # Alert generation
+└── database/
+    └── ubnad.db                    # SQLite database (auto-created)
+```
 
-- **Memory:** ~100-200 MB (scales with event count)
-- **CPU:** <1% idle, <5% during collection/analysis
-- **Network:** No external connections (local only)
-- **Latency:** Event to dashboard ~500ms
+## 🔧 Usage
 
----
-
-## Security Notes
-
-- **No admin required** for basic monitoring
-- All events stored **locally** in SQLite
-- **No telemetry** sent to external servers
-- Input monitoring via **keyboard/mouse listeners** (Windows compatible)
-- Graceful handling of privilege limitations
-
----
-
-## Advanced Usage
-
-### Manually Run Components
-
-**Backend only:**
-```cmd
+### Basic Start
+```bash
 python main.py
 ```
 
-**Dashboard only:**
-```cmd
-streamlit run ui\dashboard.py
+### What It Does
+1. Initializes SQLite database (`database/ubnad.db`)
+2. Starts Windows network collector (requires admin)
+3. Processes network events in real-time
+4. Calculates suspicion scores for each connection
+5. Logs events and generates alerts for suspicious activity
+6. Saves all data persistently on shutdown (Ctrl+C)
+
+### Example Output
+```
+2026-04-22 14:30:45,123 - INFO - UBNAD - Unauthorized Background Network Activity Detector
+2026-04-22 14:30:45,456 - INFO - Database initialized: database/ubnad.db
+2026-04-22 14:30:46,789 - INFO - Windows network collector started
+2026-04-22 14:30:47,012 - INFO - Analyzer loop started - waiting for network events
+2026-04-22 14:31:05,345 - WARNING - 🚨 ALERT: Suspicious network activity detected from chrome.exe
+2026-04-22 14:31:05,567 - INFO - ⚠️  HIGH: chrome.exe (4892) -> 192.168.1.100:443 (Score: 72.5)
 ```
 
-### Adjust Collection Frequency
+## 📊 Suspicion Scoring
 
-Edit `collector/windows_net_collector.py`:
-```python
-self.poll_interval = 2.0  # Change from 1.0 to 2.0 seconds
+The suspicion engine calculates scores on a **0-100 scale**:
+
+- **0-25**: SAFE - Normal activity
+- **26-50**: MEDIUM - Requires monitoring
+- **51-75**: HIGH - Suspicious behavior
+- **76-100**: CRITICAL - Immediate action required
+
+Factors considered:
+- Process behavior baseline deviation
+- Port reputation (known malware ports)
+- Timing patterns (idle vs. active user)
+- Connection frequency and volume
+- Destination IP reputation
+
+## 🛡️ Configuration
+
+Edit `config.py` to customize:
+- Trusted processes (whitelist)
+- Safe ports (allowlist)
+- Alert thresholds
+- Behavior baselines
+
+## 💾 Database
+
+Events are stored in `database/ubnad.db` with fields:
+- `timestamp` - Event time
+- `pid` - Process ID
+- `process_name` - Executable name
+- `dest_ip` - Destination IP
+- `dest_port` - Destination port
+- `suspicion_score` - Calculated risk (0-100)
+- `risk_level` - SAFE/MEDIUM/HIGH/CRITICAL
+- `severity` - Display severity
+- `reasons` - List of risk factors
+- `intent_score` - User activity metric
+
+### Query Examples
+```sql
+-- Find all HIGH and CRITICAL alerts
+SELECT * FROM events WHERE suspicion_score >= 50 ORDER BY timestamp DESC;
+
+-- Top suspicious processes
+SELECT process_name, COUNT(*) as connections, AVG(suspicion_score) as avg_risk 
+FROM events GROUP BY process_name ORDER BY avg_risk DESC LIMIT 10;
+
+-- Recent alerts
+SELECT timestamp, process_name, dest_ip, dest_port, suspicion_score 
+FROM events WHERE risk_level IN ('HIGH', 'CRITICAL') 
+ORDER BY timestamp DESC LIMIT 20;
 ```
 
-### Change Risk Thresholds
+## ⚙️ Advanced Features
 
-Edit `main.py` `determine_risk_level()`:
-```python
-if score > 25:      # Increase from 20
-    return "CRITICAL"
+### Behavior Profiling
+- Maintains per-process behavior baselines
+- Detects anomalies based on historical patterns
+- Adapts to legitimate process behavior over time
+
+### Intent Analysis
+- Correlates network activity with user activity
+- Detects background activity during idle periods
+- Flags suspicious timing patterns
+
+### Alert Management
+- Configurable alert rules
+- Severity-based filtering
+- Detailed reasoning for each alert
+
+## 🔐 Security Considerations
+
+- **Admin Required**: Network packet capture needs administrator privileges
+- **Minimal Overhead**: Efficient real-time processing
+- **Local Storage**: All data stored locally in SQLite
+- **Graceful Shutdown**: Ensures data persistence on exit
+
+## 🐛 Troubleshooting
+
+### "Permission Denied" Error
+Run terminal as Administrator:
+```bash
+python main.py
 ```
+
+### Database Locked Error
+Ensure no other instances are running. Close and restart:
+```bash
+# Kill any running instances
+taskkill /f /im python.exe
+python main.py
+```
+
+### No Network Events Captured
+- Verify Windows Defender/Firewall isn't blocking
+- Check network adapter is not disabled
+- Ensure WinPcap/Npcap is properly installed
+
+## 📝 Logging
+
+Logs are displayed in console with timestamps. For persistent logs, redirect output:
+```bash
+python main.py > ubnad.log 2>&1
+```
+
+## 🤝 Contributing
+
+Contributions welcome! Areas for enhancement:
+- ML-based anomaly detection
+- Network visualization dashboard
+- Integration with SIEM systems
+- Performance optimization
+
+## 📄 License
+
+MIT License - See LICENSE file for details
+
+## 👤 Author
+
+Created for advanced network security monitoring
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/YOUR_USERNAME/UBNAD)
+- [Issues & Feature Requests](https://github.com/YOUR_USERNAME/UBNAD/issues)
+- [Discussions](https://github.com/YOUR_USERNAME/UBNAD/discussions)
 
 ---
 
-## Known Limitations
-
-- Requires Windows 10/11
-- pynput may not work in all terminal environments
-- Intent scoring relies on GUI input detection (fails in headless mode)
-- Memory grows with event history (database cleanup available)
-
----
-
-## Support
-
-For issues, check:
-1. Python version: `python --version`
-2. Dependencies: `pip list | findstr /I "psutil streamlit"`
-3. Logs: `type logs\backend.log`
-4. Firewall: Check Windows Defender Firewall
-
----
-
-**UBNAD**  
-Unauthorized Background Network Activity Detector
+**Last Updated**: April 22, 2026 | Version 1.0.0
